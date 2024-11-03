@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title></title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-PoWje89h.css" as="style"><link rel="stylesheet" href="/assets/style-PoWje89h.css">
+    <link rel="modulepreload" href="/assets/app-D-bq_jAa.js"><link rel="modulepreload" href="/assets/11.文件和异常.html-CgLQgdd8.js">
+    <link rel="prefetch" href="/assets/index.html-gliNvsHQ.js" as="script"><link rel="prefetch" href="/assets/01.初识Python.html-BwFdoIKy.js" as="script"><link rel="prefetch" href="/assets/02.语言元素.html-CYMl2Yed.js" as="script"><link rel="prefetch" href="/assets/03.分支结构.html-BSYx_tCp.js" as="script"><link rel="prefetch" href="/assets/04.循环结构.html-BJZpY12e.js" as="script"><link rel="prefetch" href="/assets/05.构造程序逻辑.html-BQzZubpL.js" as="script"><link rel="prefetch" href="/assets/06.函数和模块的使用.html-D2HnWKET.js" as="script"><link rel="prefetch" href="/assets/07.字符串和常用数据结构.html-CKl8znKO.js" as="script"><link rel="prefetch" href="/assets/08.面向对象编程基础.html-D_lfcD_q.js" as="script"><link rel="prefetch" href="/assets/09.面向对象进阶.html-2lzuIX0a.js" as="script"><link rel="prefetch" href="/assets/10.图形用户界面和游戏开发.html-By17OOos.js" as="script"><link rel="prefetch" href="/assets/12.字符串和正则表达式.html-BPI-RzQV.js" as="script"><link rel="prefetch" href="/assets/13.进程和线程.html-cUulhaPG.js" as="script"><link rel="prefetch" href="/assets/14.网络编程入门和网络应用开发.html-BtJ52ysb.js" as="script"><link rel="prefetch" href="/assets/15.图像和办公文档处理.html-CmKSYg3w.js" as="script"><link rel="prefetch" href="/assets/21-30.Web前端概述.html-BQnr2GML.js" as="script"><link rel="prefetch" href="/assets/16-20.Python语言进阶.html-B6OMzyDF.js" as="script"><link rel="prefetch" href="/assets/31-35.玩转Linux操作系统.html-ZmKmt6al.js" as="script"><link rel="prefetch" href="/assets/46.Django快速上手.html-ClDn9mK8.js" as="script"><link rel="prefetch" href="/assets/47.深入模型.html-BeXTv4Gh.js" as="script"><link rel="prefetch" href="/assets/48.静态资源和Ajax请求.html-CBsfW0m5.js" as="script"><link rel="prefetch" href="/assets/49.Cookie和Session.html-OKxZdF5r.js" as="script"><link rel="prefetch" href="/assets/50.制作报表.html-CHohPMoE.js" as="script"><link rel="prefetch" href="/assets/51.日志和调试工具栏.html-IHfUTr24.js" as="script"><link rel="prefetch" href="/assets/52.中间件的应用.html-EITG4bC6.js" as="script"><link rel="prefetch" href="/assets/53.前后端分离开发入门.html-CSfpFnpc.js" as="script"><link rel="prefetch" href="/assets/54.RESTful架构和DRF入门.html-unYp2iVf.js" as="script"><link rel="prefetch" href="/assets/55.RESTful架构和DRF进阶.html-Bimn41qo.js" as="script"><link rel="prefetch" href="/assets/56.使用缓存.html-DygStMaf.js" as="script"><link rel="prefetch" href="/assets/57.接入三方平台.html-BOYDJBOY.js" as="script"><link rel="prefetch" href="/assets/58.异步任务和定时任务.html-Df3PFO5Q.js" as="script"><link rel="prefetch" href="/assets/59.单元测试.html-DsPevIDF.js" as="script"><link rel="prefetch" href="/assets/60.项目上线.html-DMRv6p1t.js" as="script"><link rel="prefetch" href="/assets/36.关系型数据库和MySQL概述.html-BxE9DXEh.js" as="script"><link rel="prefetch" href="/assets/37.SQL详解之DDL.html-Bgp1k0eR.js" as="script"><link rel="prefetch" href="/assets/38.SQL详解之DML.html-uimrZls-.js" as="script"><link rel="prefetch" href="/assets/39.SQL详解之DQL.html-Ddo7fJHv.js" as="script"><link rel="prefetch" href="/assets/40.SQL详解之DCL.html-CE0er4AB.js" as="script"><link rel="prefetch" href="/assets/41.MySQL新特性.html-Be23vhPq.js" as="script"><link rel="prefetch" href="/assets/42.视图、函数和过程.html-JJRxgqze.js" as="script"><link rel="prefetch" href="/assets/43.索引.html-DCuE2oxz.js" as="script"><link rel="prefetch" href="/assets/44.Python接入MySQL数据库.html-CDHCppw7.js" as="script"><link rel="prefetch" href="/assets/45.大数据平台和HiveSQL.html-BoScJKu1.js" as="script"><link rel="prefetch" href="/assets/66.数据分析概述.html-BnwcA8AB.js" as="script"><link rel="prefetch" href="/assets/67.环境准备.html-DHxqV8P9.js" as="script"><link rel="prefetch" href="/assets/68.NumPy的应用-1.html-B3M5Stew.js" as="script"><link rel="prefetch" href="/assets/69.NumPy的应用-2.html-DINfPSOD.js" as="script"><link rel="prefetch" href="/assets/70.NumPy的应用-3.html-Cq0BS2Tg.js" as="script"><link rel="prefetch" href="/assets/71.NumPy的应用-4.html-BONDNBne.js" as="script"><link rel="prefetch" href="/assets/72.深入浅出pandas-1.html-mfHBd5ix.js" as="script"><link rel="prefetch" href="/assets/73.深入浅出pandas-2.html-BzB_BqJB.js" as="script"><link rel="prefetch" href="/assets/74.深入浅出pandas-3.html-CsRWNuji.js" as="script"><link rel="prefetch" href="/assets/75.深入浅出pandas-4.html-BvqbzoEe.js" as="script"><link rel="prefetch" href="/assets/76.深入浅出pandas-5.html-ukdSbkgj.js" as="script"><link rel="prefetch" href="/assets/77.深入浅出pandas-6.html-Cb21IcVJ.js" as="script"><link rel="prefetch" href="/assets/78.数据可视化-1.html-B7sXt-G5.js" as="script"><link rel="prefetch" href="/assets/79.数据可视化-2.html-Bv_oTn1i.js" as="script"><link rel="prefetch" href="/assets/80.数据可视化-3.html-BLZsn4HV.js" as="script"><link rel="prefetch" href="/assets/61.网络数据采集概述.html-CjR5vzG3.js" as="script"><link rel="prefetch" href="/assets/62.用Python获取网络资源-1.html-BKM7qrLE.js" as="script"><link rel="prefetch" href="/assets/62.用Python解析HTML页面-2.html-Dtcd-kct.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-1.html-BekWYpsa.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-2.html-CVXcHBzj.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-3.html-BlfLRjkc.js" as="script"><link rel="prefetch" href="/assets/63.并发编程在爬虫中的应用.html-ti0e-1h5.js" as="script"><link rel="prefetch" href="/assets/64.使用Selenium抓取网页动态内容.html-BLFVKpq_.js" as="script"><link rel="prefetch" href="/assets/65.爬虫框架Scrapy简介.html-W8heCdhA.js" as="script"><link rel="prefetch" href="/assets/81.人工智能和机器学习概述.html-Ca7AYT__.js" as="script"><link rel="prefetch" href="/assets/82.k最近邻算法.html-CGQnIPO4.js" as="script"><link rel="prefetch" href="/assets/83.决策树.html-BwWQjZ__.js" as="script"><link rel="prefetch" href="/assets/84.聚类算法.html-BnETr6ij.js" as="script"><link rel="prefetch" href="/assets/85.朴素贝叶斯算法.html-Rct6EKZw.js" as="script"><link rel="prefetch" href="/assets/86.支持向量机.html-yAGpiCbO.js" as="script"><link rel="prefetch" href="/assets/87.回归分析.html-BO-2cKfh.js" as="script"><link rel="prefetch" href="/assets/88.深度学习入门.html-BOSrbht3.js" as="script"><link rel="prefetch" href="/assets/89.PyTorch概述.html-BXDTY1W0.js" as="script"><link rel="prefetch" href="/assets/90.PyTorch实战.html-DWYNWcjH.js" as="script"><link rel="prefetch" href="/assets/100.Python面试题实录.html-C5EnR3Ed.js" as="script"><link rel="prefetch" href="/assets/91.团队项目开发的问题和解决方案.html-CECcJy8n.js" as="script"><link rel="prefetch" href="/assets/92.Docker容器技术详解.html-DGacXk8p.js" as="script"><link rel="prefetch" href="/assets/93.MySQL性能优化.html-BChvKIt4.js" as="script"><link rel="prefetch" href="/assets/94.网络API接口设计.html-ChQlRSGo.js" as="script"><link rel="prefetch" href="/assets/95.使用Django开发商业项目.html-DECQMK9m.js" as="script"><link rel="prefetch" href="/assets/96.软件测试和自动化测试.html-D3r3us4u.js" as="script"><link rel="prefetch" href="/assets/97.电商网站技术要点剖析.html-hB1D5G1G.js" as="script"><link rel="prefetch" href="/assets/98.项目部署上线和性能调优.html-CT3LhWhJ.js" as="script"><link rel="prefetch" href="/assets/99.面试中的公共问题.html-DMTzlILS.js" as="script"><link rel="prefetch" href="/assets/PEP8风格指南.html-DN3Ws3cc.js" as="script"><link rel="prefetch" href="/assets/Python之禅的最佳翻译.html-TKNJu8cq.js" as="script"><link rel="prefetch" href="/assets/Python参考书籍.html-CO-ccpF4.js" as="script"><link rel="prefetch" href="/assets/Python容器使用小技巧.html-DZR49nel.js" as="script"><link rel="prefetch" href="/assets/Python数据分析师面试题.html-YtNemgMP.js" as="script"><link rel="prefetch" href="/assets/Python编程惯例.html-CvmEKn9m.js" as="script"><link rel="prefetch" href="/assets/一个小例子助你彻底理解协程.html-Cq1CFFHT.js" as="script"><link rel="prefetch" href="/assets/使用Hexo搭建自己的博客.html-CXPev5HK.js" as="script"><link rel="prefetch" href="/assets/常见反爬策略及应对方案.html-DCecg34L.js" as="script"><link rel="prefetch" href="/assets/我为什么选择了Python.html-BuUPym1o.js" as="script"><link rel="prefetch" href="/assets/接口文档参考示例.html-GRoBovI1.js" as="script"><link rel="prefetch" href="/assets/玩转PyCharm.html--XkJxH2_.js" as="script"><link rel="prefetch" href="/assets/用函数还是用复杂的表达式.html-2n5kS7oc.js" as="script"><link rel="prefetch" href="/assets/知乎问题回答.html-CkWOFmLg.js" as="script"><link rel="prefetch" href="/assets/英语面试.html-CZGJtC3Y.js" as="script"><link rel="prefetch" href="/assets/那些年我们踩过的那些坑.html-C1BI6oD2.js" as="script"><link rel="prefetch" href="/assets/年薪50W_的Python程序员如何写代码.html-C49SuvhI.js" as="script"><link rel="prefetch" href="/assets/好玩的Python.html-CpBhFJ_2.js" as="script"><link rel="prefetch" href="/assets/算法入门系列1-周而复始.html-32WRx0Tf.js" as="script"><link rel="prefetch" href="/assets/算法入门系列2 - 在水一方.html-ChrbgX52.js" as="script"><link rel="prefetch" href="/assets/404.html-8giqv0M_.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-CexIHObO.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><!----><!----></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading"> <!----></p><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content" vp-content><!--[--><!--]--><div><h2 id="文件和异常" tabindex="-1"><a class="header-anchor" href="#文件和异常"><span>文件和异常</span></a></h2><p>实际开发中常常会遇到对数据进行<a href="https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96" target="_blank" rel="noopener noreferrer">持久化</a>操作的场景，而实现数据持久化最直接简单的方式就是将数据保存到文件中。说到“文件”这个词，可能需要先科普一下关于<a href="https://zh.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F" target="_blank" rel="noopener noreferrer">文件系统</a>的知识，但是这里我们并不浪费笔墨介绍这个概念，请大家自行通过维基百科进行了解。</p><p>在Python中实现文件的读写操作其实非常简单，通过Python内置的<code>open</code>函数，我们可以指定文件名、操作模式、编码信息等来获得操作文件的对象，接下来就可以对文件进行读写操作了。这里所说的操作模式是指要打开什么样的文件（字符文件还是二进制文件）以及做什么样的操作（读、写还是追加），具体的如下表所示。</p><table><thead><tr><th>操作模式</th><th>具体含义</th></tr></thead><tbody><tr><td><code>&#39;r&#39;</code></td><td>读取 （默认）</td></tr><tr><td><code>&#39;w&#39;</code></td><td>写入（会先截断之前的内容）</td></tr><tr><td><code>&#39;x&#39;</code></td><td>写入，如果文件已经存在会产生异常</td></tr><tr><td><code>&#39;a&#39;</code></td><td>追加，将内容写入到已有文件的末尾</td></tr><tr><td><code>&#39;b&#39;</code></td><td>二进制模式</td></tr><tr><td><code>&#39;t&#39;</code></td><td>文本模式（默认）</td></tr><tr><td><code>&#39;+&#39;</code></td><td>更新（既可以读又可以写）</td></tr></tbody></table><p>下面这张图来自于<a href="http://www.runoob.com" target="_blank" rel="noopener noreferrer">菜鸟教程</a>网站，它展示了如果根据应用程序的需要来设置操作模式。</p><p><img src="/assets/file-open-mode-MDm5j0cY.png" alt=""></p><h3 id="读写文本文件" tabindex="-1"><a class="header-anchor" href="#读写文本文件"><span>读写文本文件</span></a></h3><p>读取文本文件时，需要在使用<code>open</code>函数时指定好带路径的文件名（可以使用相对路径或绝对路径）并将文件模式设置为<code>&#39;r&#39;</code>（如果不指定，默认值也是<code>&#39;r&#39;</code>），然后通过<code>encoding</code>参数指定编码（如果不指定，默认值是None，那么在读取文件时使用的是操作系统默认的编码），如果不能保证保存文件时使用的编码方式与encoding参数指定的编码方式是一致的，那么就可能因无法解码字符而导致读取失败。下面的例子演示了如何读取一个纯文本文件。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">def main():</span>
+<span class="line">    f = open(&#39;致橡树.txt&#39;, &#39;r&#39;, encoding=&#39;utf-8&#39;)</span>
+<span class="line">    print(f.read())</span>
+<span class="line">    f.close()</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>请注意上面的代码，如果<code>open</code>函数指定的文件并不存在或者无法打开，那么将引发异常状况导致程序崩溃。为了让代码有一定的健壮性和容错性，我们可以使用Python的异常机制对可能在运行时发生状况的代码进行适当的处理，如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">def main():</span>
+<span class="line">    f = None</span>
+<span class="line">    try:</span>
+<span class="line">        f = open(&#39;致橡树.txt&#39;, &#39;r&#39;, encoding=&#39;utf-8&#39;)</span>
+<span class="line">        print(f.read())</span>
+<span class="line">    except FileNotFoundError:</span>
+<span class="line">        print(&#39;无法打开指定的文件!&#39;)</span>
+<span class="line">    except LookupError:</span>
+<span class="line">        print(&#39;指定了未知的编码!&#39;)</span>
+<span class="line">    except UnicodeDecodeError:</span>
+<span class="line">        print(&#39;读取文件时解码错误!&#39;)</span>
+<span class="line">    finally:</span>
+<span class="line">        if f:</span>
+<span class="line">            f.close()</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在Python中，我们可以将那些在运行时可能会出现状况的代码放在<code>try</code>代码块中，在<code>try</code>代码块的后面可以跟上一个或多个<code>except</code>来捕获可能出现的异常状况。例如在上面读取文件的过程中，文件找不到会引发<code>FileNotFoundError</code>，指定了未知的编码会引发<code>LookupError</code>，而如果读取文件时无法按指定方式解码会引发<code>UnicodeDecodeError</code>，我们在<code>try</code>后面跟上了三个<code>except</code>分别处理这三种不同的异常状况。最后我们使用<code>finally</code>代码块来关闭打开的文件，释放掉程序中获取的外部资源，由于<code>finally</code>块的代码不论程序正常还是异常都会执行到（甚至是调用了<code>sys</code>模块的<code>exit</code>函数退出Python环境，<code>finally</code>块都会被执行，因为<code>exit</code>函数实质上是引发了<code>SystemExit</code>异常），因此我们通常把<code>finally</code>块称为“总是执行代码块”，它最适合用来做释放外部资源的操作。如果不愿意在<code>finally</code>代码块中关闭文件对象释放资源，也可以使用上下文语法，通过<code>with</code>关键字指定文件对象的上下文环境并在离开上下文环境时自动释放文件资源，代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">def main():</span>
+<span class="line">    try:</span>
+<span class="line">        with open(&#39;致橡树.txt&#39;, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:</span>
+<span class="line">            print(f.read())</span>
+<span class="line">    except FileNotFoundError:</span>
+<span class="line">        print(&#39;无法打开指定的文件!&#39;)</span>
+<span class="line">    except LookupError:</span>
+<span class="line">        print(&#39;指定了未知的编码!&#39;)</span>
+<span class="line">    except UnicodeDecodeError:</span>
+<span class="line">        print(&#39;读取文件时解码错误!&#39;)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>除了使用文件对象的<code>read</code>方法读取文件之外，还可以使用<code>for-in</code>循环逐行读取或者用<code>readlines</code>方法将文件按行读取到一个列表容器中，代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">import time</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    # 一次性读取整个文件内容</span>
+<span class="line">    with open(&#39;致橡树.txt&#39;, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:</span>
+<span class="line">        print(f.read())</span>
+<span class="line"></span>
+<span class="line">    # 通过for-in循环逐行读取</span>
+<span class="line">    with open(&#39;致橡树.txt&#39;, mode=&#39;r&#39;) as f:</span>
+<span class="line">        for line in f:</span>
+<span class="line">            print(line, end=&#39;&#39;)</span>
+<span class="line">            time.sleep(0.5)</span>
+<span class="line">    print()</span>
+<span class="line"></span>
+<span class="line">    # 读取文件按行读取到列表中</span>
+<span class="line">    with open(&#39;致橡树.txt&#39;) as f:</span>
+<span class="line">        lines = f.readlines()</span>
+<span class="line">    print(lines)</span>
+<span class="line">    </span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>要将文本信息写入文件文件也非常简单，在使用<code>open</code>函数时指定好文件名并将文件模式设置为<code>&#39;w&#39;</code>即可。注意如果需要对文件内容进行追加式写入，应该将模式设置为<code>&#39;a&#39;</code>。如果要写入的文件不存在会自动创建文件而不是引发异常。下面的例子演示了如何将1-9999之间的素数分别写入三个文件中（1-99之间的素数保存在a.txt中，100-999之间的素数保存在b.txt中，1000-9999之间的素数保存在c.txt中）。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from math import sqrt</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def is_prime(n):</span>
+<span class="line">    &quot;&quot;&quot;判断素数的函数&quot;&quot;&quot;</span>
+<span class="line">    assert n &gt; 0</span>
+<span class="line">    for factor in range(2, int(sqrt(n)) + 1):</span>
+<span class="line">        if n % factor == 0:</span>
+<span class="line">            return False</span>
+<span class="line">    return True if n != 1 else False</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    filenames = (&#39;a.txt&#39;, &#39;b.txt&#39;, &#39;c.txt&#39;)</span>
+<span class="line">    fs_list = []</span>
+<span class="line">    try:</span>
+<span class="line">        for filename in filenames:</span>
+<span class="line">            fs_list.append(open(filename, &#39;w&#39;, encoding=&#39;utf-8&#39;))</span>
+<span class="line">        for number in range(1, 10000):</span>
+<span class="line">            if is_prime(number):</span>
+<span class="line">                if number &lt; 100:</span>
+<span class="line">                    fs_list[0].write(str(number) + &#39;\n&#39;)</span>
+<span class="line">                elif number &lt; 1000:</span>
+<span class="line">                    fs_list[1].write(str(number) + &#39;\n&#39;)</span>
+<span class="line">                else:</span>
+<span class="line">                    fs_list[2].write(str(number) + &#39;\n&#39;)</span>
+<span class="line">    except IOError as ex:</span>
+<span class="line">        print(ex)</span>
+<span class="line">        print(&#39;写文件时发生错误!&#39;)</span>
+<span class="line">    finally:</span>
+<span class="line">        for fs in fs_list:</span>
+<span class="line">            fs.close()</span>
+<span class="line">    print(&#39;操作完成!&#39;)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="读写二进制文件" tabindex="-1"><a class="header-anchor" href="#读写二进制文件"><span>读写二进制文件</span></a></h3><p>知道了如何读写文本文件要读写二进制文件也就很简单了，下面的代码实现了复制图片文件的功能。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">def main():</span>
+<span class="line">    try:</span>
+<span class="line">        with open(&#39;guido.jpg&#39;, &#39;rb&#39;) as fs1:</span>
+<span class="line">            data = fs1.read()</span>
+<span class="line">            print(type(data))  # &lt;class &#39;bytes&#39;&gt;</span>
+<span class="line">        with open(&#39;吉多.jpg&#39;, &#39;wb&#39;) as fs2:</span>
+<span class="line">            fs2.write(data)</span>
+<span class="line">    except FileNotFoundError as e:</span>
+<span class="line">        print(&#39;指定的文件无法打开.&#39;)</span>
+<span class="line">    except IOError as e:</span>
+<span class="line">        print(&#39;读写文件时出现错误.&#39;)</span>
+<span class="line">    print(&#39;程序执行结束.&#39;)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="读写json文件" tabindex="-1"><a class="header-anchor" href="#读写json文件"><span>读写JSON文件</span></a></h3><p>通过上面的讲解，我们已经知道如何将文本数据和二进制数据保存到文件中，那么这里还有一个问题，如果希望把一个列表或者一个字典中的数据保存到文件中又该怎么做呢？答案是将数据以JSON格式进行保存。JSON是“JavaScript Object Notation”的缩写，它本来是JavaScript语言中创建对象的一种字面量语法，现在已经被广泛的应用于跨平台跨语言的数据交换，原因很简单，因为JSON也是纯文本，任何系统任何编程语言处理纯文本都是没有问题的。目前JSON基本上已经取代了XML作为异构系统间交换数据的事实标准。关于JSON的知识，更多的可以参考<a href="http://json.org" target="_blank" rel="noopener noreferrer">JSON的官方网站</a>，从这个网站也可以了解到每种语言处理JSON数据格式可以使用的工具或三方库，下面是一个JSON的简单例子。</p><div class="language-JSON line-numbers-mode" data-highlighter="prismjs" data-ext="JSON" data-title="JSON"><pre><code><span class="line">{</span>
+<span class="line">    &quot;name&quot;: &quot;骆昊&quot;,</span>
+<span class="line">    &quot;age&quot;: 38,</span>
+<span class="line">    &quot;qq&quot;: 957658,</span>
+<span class="line">    &quot;friends&quot;: [&quot;王大锤&quot;, &quot;白元芳&quot;],</span>
+<span class="line">    &quot;cars&quot;: [</span>
+<span class="line">        {&quot;brand&quot;: &quot;BYD&quot;, &quot;max_speed&quot;: 180},</span>
+<span class="line">        {&quot;brand&quot;: &quot;Audi&quot;, &quot;max_speed&quot;: 280},</span>
+<span class="line">        {&quot;brand&quot;: &quot;Benz&quot;, &quot;max_speed&quot;: 320}</span>
+<span class="line">    ]</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>可能大家已经注意到了，上面的JSON跟Python中的字典其实是一样一样的，事实上JSON的数据类型和Python的数据类型是很容易找到对应关系的，如下面两张表所示。</p><table><thead><tr><th>JSON</th><th>Python</th></tr></thead><tbody><tr><td>object</td><td>dict</td></tr><tr><td>array</td><td>list</td></tr><tr><td>string</td><td>str</td></tr><tr><td>number (int / real)</td><td>int / float</td></tr><tr><td>true / false</td><td>True / False</td></tr><tr><td>null</td><td>None</td></tr></tbody></table><table><thead><tr><th>Python</th><th>JSON</th></tr></thead><tbody><tr><td>dict</td><td>object</td></tr><tr><td>list, tuple</td><td>array</td></tr><tr><td>str</td><td>string</td></tr><tr><td>int, float, int- &amp; float-derived Enums</td><td>number</td></tr><tr><td>True / False</td><td>true / false</td></tr><tr><td>None</td><td>null</td></tr></tbody></table><p>我们使用Python中的json模块就可以将字典或列表以JSON格式保存到文件中，代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">import json</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    mydict = {</span>
+<span class="line">        &#39;name&#39;: &#39;骆昊&#39;,</span>
+<span class="line">        &#39;age&#39;: 38,</span>
+<span class="line">        &#39;qq&#39;: 957658,</span>
+<span class="line">        &#39;friends&#39;: [&#39;王大锤&#39;, &#39;白元芳&#39;],</span>
+<span class="line">        &#39;cars&#39;: [</span>
+<span class="line">            {&#39;brand&#39;: &#39;BYD&#39;, &#39;max_speed&#39;: 180},</span>
+<span class="line">            {&#39;brand&#39;: &#39;Audi&#39;, &#39;max_speed&#39;: 280},</span>
+<span class="line">            {&#39;brand&#39;: &#39;Benz&#39;, &#39;max_speed&#39;: 320}</span>
+<span class="line">        ]</span>
+<span class="line">    }</span>
+<span class="line">    try:</span>
+<span class="line">        with open(&#39;data.json&#39;, &#39;w&#39;, encoding=&#39;utf-8&#39;) as fs:</span>
+<span class="line">            json.dump(mydict, fs)</span>
+<span class="line">    except IOError as e:</span>
+<span class="line">        print(e)</span>
+<span class="line">    print(&#39;保存数据完成!&#39;)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>json模块主要有四个比较重要的函数，分别是：</p><ul><li><code>dump</code> - 将Python对象按照JSON格式序列化到文件中</li><li><code>dumps</code> - 将Python对象处理成JSON格式的字符串</li><li><code>load</code> - 将文件中的JSON数据反序列化成对象</li><li><code>loads</code> - 将字符串的内容反序列化成Python对象</li></ul><p>这里出现了两个概念，一个叫序列化，一个叫反序列化。自由的百科全书<a href="https://zh.wikipedia.org/" target="_blank" rel="noopener noreferrer">维基百科</a>上对这两个概念是这样解释的：“序列化（serialization）在计算机科学的数据处理中，是指将数据结构或对象状态转换为可以存储或传输的形式，这样在需要的时候能够恢复到原先的状态，而且通过序列化的数据重新获取字节时，可以利用这些字节来产生原始对象的副本（拷贝）。与这个过程相反的动作，即从一系列字节中提取数据结构的操作，就是反序列化（deserialization）”。</p><p>目前绝大多数网络数据服务（或称之为网络API）都是基于<a href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE" target="_blank" rel="noopener noreferrer">HTTP协议</a>提供JSON格式的数据，关于HTTP协议的相关知识，可以看看阮一峰老师的<a href="http://www.ruanyifeng.com/blog/2016/08/http.html" target="_blank" rel="noopener noreferrer">《HTTP协议入门》</a>，如果想了解国内的网络数据服务，可以看看<a href="https://www.juhe.cn/" target="_blank" rel="noopener noreferrer">聚合数据</a>和<a href="http://www.avatardata.cn/" target="_blank" rel="noopener noreferrer">阿凡达数据</a>等网站，国外的可以看看<a href="http://apis.io/" target="_blank" rel="noopener noreferrer">{API}Search</a>网站。下面的例子演示了如何使用<a href="http://docs.python-requests.org/zh_CN/latest/" target="_blank" rel="noopener noreferrer">requests</a>模块（封装得足够好的第三方网络访问模块）访问网络API获取国内新闻，如何通过json模块解析JSON数据并显示新闻标题，这个例子使用了<a href="https://www.tianapi.com/" target="_blank" rel="noopener noreferrer">天行数据</a>提供的国内新闻数据接口，其中的APIKey需要自己到该网站申请。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">import requests</span>
+<span class="line">import json</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    resp = requests.get(&#39;http://api.tianapi.com/guonei/?key=APIKey&amp;num=10&#39;)</span>
+<span class="line">    data_model = json.loads(resp.text)</span>
+<span class="line">    for news in data_model[&#39;newslist&#39;]:</span>
+<span class="line">        print(news[&#39;title&#39;])</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在Python中要实现序列化和反序列化除了使用json模块之外，还可以使用pickle和shelve模块，但是这两个模块是使用特有的序列化协议来序列化数据，因此序列化后的数据只能被Python识别。关于这两个模块的相关知识可以自己看看网络上的资料。另外，如果要了解更多的关于Python异常机制的知识，可以看看segmentfault上面的文章<a href="https://segmentfault.com/a/1190000007736783" target="_blank" rel="noopener noreferrer">《总结：Python中的异常处理》</a>，这篇文章不仅介绍了Python中异常机制的使用，还总结了一系列的最佳实践，很值得一读。</p></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-D-bq_jAa.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title></title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-PoWje89h.css" as="style"><link rel="stylesheet" href="/assets/style-PoWje89h.css">
+    <link rel="modulepreload" href="/assets/app-D-bq_jAa.js"><link rel="modulepreload" href="/assets/年薪50W_的Python程序员如何写代码.html-C49SuvhI.js">
+    <link rel="prefetch" href="/assets/index.html-gliNvsHQ.js" as="script"><link rel="prefetch" href="/assets/01.初识Python.html-BwFdoIKy.js" as="script"><link rel="prefetch" href="/assets/02.语言元素.html-CYMl2Yed.js" as="script"><link rel="prefetch" href="/assets/03.分支结构.html-BSYx_tCp.js" as="script"><link rel="prefetch" href="/assets/04.循环结构.html-BJZpY12e.js" as="script"><link rel="prefetch" href="/assets/05.构造程序逻辑.html-BQzZubpL.js" as="script"><link rel="prefetch" href="/assets/06.函数和模块的使用.html-D2HnWKET.js" as="script"><link rel="prefetch" href="/assets/07.字符串和常用数据结构.html-CKl8znKO.js" as="script"><link rel="prefetch" href="/assets/08.面向对象编程基础.html-D_lfcD_q.js" as="script"><link rel="prefetch" href="/assets/09.面向对象进阶.html-2lzuIX0a.js" as="script"><link rel="prefetch" href="/assets/10.图形用户界面和游戏开发.html-By17OOos.js" as="script"><link rel="prefetch" href="/assets/11.文件和异常.html-CgLQgdd8.js" as="script"><link rel="prefetch" href="/assets/12.字符串和正则表达式.html-BPI-RzQV.js" as="script"><link rel="prefetch" href="/assets/13.进程和线程.html-cUulhaPG.js" as="script"><link rel="prefetch" href="/assets/14.网络编程入门和网络应用开发.html-BtJ52ysb.js" as="script"><link rel="prefetch" href="/assets/15.图像和办公文档处理.html-CmKSYg3w.js" as="script"><link rel="prefetch" href="/assets/21-30.Web前端概述.html-BQnr2GML.js" as="script"><link rel="prefetch" href="/assets/16-20.Python语言进阶.html-B6OMzyDF.js" as="script"><link rel="prefetch" href="/assets/31-35.玩转Linux操作系统.html-ZmKmt6al.js" as="script"><link rel="prefetch" href="/assets/46.Django快速上手.html-ClDn9mK8.js" as="script"><link rel="prefetch" href="/assets/47.深入模型.html-BeXTv4Gh.js" as="script"><link rel="prefetch" href="/assets/48.静态资源和Ajax请求.html-CBsfW0m5.js" as="script"><link rel="prefetch" href="/assets/49.Cookie和Session.html-OKxZdF5r.js" as="script"><link rel="prefetch" href="/assets/50.制作报表.html-CHohPMoE.js" as="script"><link rel="prefetch" href="/assets/51.日志和调试工具栏.html-IHfUTr24.js" as="script"><link rel="prefetch" href="/assets/52.中间件的应用.html-EITG4bC6.js" as="script"><link rel="prefetch" href="/assets/53.前后端分离开发入门.html-CSfpFnpc.js" as="script"><link rel="prefetch" href="/assets/54.RESTful架构和DRF入门.html-unYp2iVf.js" as="script"><link rel="prefetch" href="/assets/55.RESTful架构和DRF进阶.html-Bimn41qo.js" as="script"><link rel="prefetch" href="/assets/56.使用缓存.html-DygStMaf.js" as="script"><link rel="prefetch" href="/assets/57.接入三方平台.html-BOYDJBOY.js" as="script"><link rel="prefetch" href="/assets/58.异步任务和定时任务.html-Df3PFO5Q.js" as="script"><link rel="prefetch" href="/assets/59.单元测试.html-DsPevIDF.js" as="script"><link rel="prefetch" href="/assets/60.项目上线.html-DMRv6p1t.js" as="script"><link rel="prefetch" href="/assets/36.关系型数据库和MySQL概述.html-BxE9DXEh.js" as="script"><link rel="prefetch" href="/assets/37.SQL详解之DDL.html-Bgp1k0eR.js" as="script"><link rel="prefetch" href="/assets/38.SQL详解之DML.html-uimrZls-.js" as="script"><link rel="prefetch" href="/assets/39.SQL详解之DQL.html-Ddo7fJHv.js" as="script"><link rel="prefetch" href="/assets/40.SQL详解之DCL.html-CE0er4AB.js" as="script"><link rel="prefetch" href="/assets/41.MySQL新特性.html-Be23vhPq.js" as="script"><link rel="prefetch" href="/assets/42.视图、函数和过程.html-JJRxgqze.js" as="script"><link rel="prefetch" href="/assets/43.索引.html-DCuE2oxz.js" as="script"><link rel="prefetch" href="/assets/44.Python接入MySQL数据库.html-CDHCppw7.js" as="script"><link rel="prefetch" href="/assets/45.大数据平台和HiveSQL.html-BoScJKu1.js" as="script"><link rel="prefetch" href="/assets/66.数据分析概述.html-BnwcA8AB.js" as="script"><link rel="prefetch" href="/assets/67.环境准备.html-DHxqV8P9.js" as="script"><link rel="prefetch" href="/assets/68.NumPy的应用-1.html-B3M5Stew.js" as="script"><link rel="prefetch" href="/assets/69.NumPy的应用-2.html-DINfPSOD.js" as="script"><link rel="prefetch" href="/assets/70.NumPy的应用-3.html-Cq0BS2Tg.js" as="script"><link rel="prefetch" href="/assets/71.NumPy的应用-4.html-BONDNBne.js" as="script"><link rel="prefetch" href="/assets/72.深入浅出pandas-1.html-mfHBd5ix.js" as="script"><link rel="prefetch" href="/assets/73.深入浅出pandas-2.html-BzB_BqJB.js" as="script"><link rel="prefetch" href="/assets/74.深入浅出pandas-3.html-CsRWNuji.js" as="script"><link rel="prefetch" href="/assets/75.深入浅出pandas-4.html-BvqbzoEe.js" as="script"><link rel="prefetch" href="/assets/76.深入浅出pandas-5.html-ukdSbkgj.js" as="script"><link rel="prefetch" href="/assets/77.深入浅出pandas-6.html-Cb21IcVJ.js" as="script"><link rel="prefetch" href="/assets/78.数据可视化-1.html-B7sXt-G5.js" as="script"><link rel="prefetch" href="/assets/79.数据可视化-2.html-Bv_oTn1i.js" as="script"><link rel="prefetch" href="/assets/80.数据可视化-3.html-BLZsn4HV.js" as="script"><link rel="prefetch" href="/assets/61.网络数据采集概述.html-CjR5vzG3.js" as="script"><link rel="prefetch" href="/assets/62.用Python获取网络资源-1.html-BKM7qrLE.js" as="script"><link rel="prefetch" href="/assets/62.用Python解析HTML页面-2.html-Dtcd-kct.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-1.html-BekWYpsa.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-2.html-CVXcHBzj.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-3.html-BlfLRjkc.js" as="script"><link rel="prefetch" href="/assets/63.并发编程在爬虫中的应用.html-ti0e-1h5.js" as="script"><link rel="prefetch" href="/assets/64.使用Selenium抓取网页动态内容.html-BLFVKpq_.js" as="script"><link rel="prefetch" href="/assets/65.爬虫框架Scrapy简介.html-W8heCdhA.js" as="script"><link rel="prefetch" href="/assets/81.人工智能和机器学习概述.html-Ca7AYT__.js" as="script"><link rel="prefetch" href="/assets/82.k最近邻算法.html-CGQnIPO4.js" as="script"><link rel="prefetch" href="/assets/83.决策树.html-BwWQjZ__.js" as="script"><link rel="prefetch" href="/assets/84.聚类算法.html-BnETr6ij.js" as="script"><link rel="prefetch" href="/assets/85.朴素贝叶斯算法.html-Rct6EKZw.js" as="script"><link rel="prefetch" href="/assets/86.支持向量机.html-yAGpiCbO.js" as="script"><link rel="prefetch" href="/assets/87.回归分析.html-BO-2cKfh.js" as="script"><link rel="prefetch" href="/assets/88.深度学习入门.html-BOSrbht3.js" as="script"><link rel="prefetch" href="/assets/89.PyTorch概述.html-BXDTY1W0.js" as="script"><link rel="prefetch" href="/assets/90.PyTorch实战.html-DWYNWcjH.js" as="script"><link rel="prefetch" href="/assets/100.Python面试题实录.html-C5EnR3Ed.js" as="script"><link rel="prefetch" href="/assets/91.团队项目开发的问题和解决方案.html-CECcJy8n.js" as="script"><link rel="prefetch" href="/assets/92.Docker容器技术详解.html-DGacXk8p.js" as="script"><link rel="prefetch" href="/assets/93.MySQL性能优化.html-BChvKIt4.js" as="script"><link rel="prefetch" href="/assets/94.网络API接口设计.html-ChQlRSGo.js" as="script"><link rel="prefetch" href="/assets/95.使用Django开发商业项目.html-DECQMK9m.js" as="script"><link rel="prefetch" href="/assets/96.软件测试和自动化测试.html-D3r3us4u.js" as="script"><link rel="prefetch" href="/assets/97.电商网站技术要点剖析.html-hB1D5G1G.js" as="script"><link rel="prefetch" href="/assets/98.项目部署上线和性能调优.html-CT3LhWhJ.js" as="script"><link rel="prefetch" href="/assets/99.面试中的公共问题.html-DMTzlILS.js" as="script"><link rel="prefetch" href="/assets/PEP8风格指南.html-DN3Ws3cc.js" as="script"><link rel="prefetch" href="/assets/Python之禅的最佳翻译.html-TKNJu8cq.js" as="script"><link rel="prefetch" href="/assets/Python参考书籍.html-CO-ccpF4.js" as="script"><link rel="prefetch" href="/assets/Python容器使用小技巧.html-DZR49nel.js" as="script"><link rel="prefetch" href="/assets/Python数据分析师面试题.html-YtNemgMP.js" as="script"><link rel="prefetch" href="/assets/Python编程惯例.html-CvmEKn9m.js" as="script"><link rel="prefetch" href="/assets/一个小例子助你彻底理解协程.html-Cq1CFFHT.js" as="script"><link rel="prefetch" href="/assets/使用Hexo搭建自己的博客.html-CXPev5HK.js" as="script"><link rel="prefetch" href="/assets/常见反爬策略及应对方案.html-DCecg34L.js" as="script"><link rel="prefetch" href="/assets/我为什么选择了Python.html-BuUPym1o.js" as="script"><link rel="prefetch" href="/assets/接口文档参考示例.html-GRoBovI1.js" as="script"><link rel="prefetch" href="/assets/玩转PyCharm.html--XkJxH2_.js" as="script"><link rel="prefetch" href="/assets/用函数还是用复杂的表达式.html-2n5kS7oc.js" as="script"><link rel="prefetch" href="/assets/知乎问题回答.html-CkWOFmLg.js" as="script"><link rel="prefetch" href="/assets/英语面试.html-CZGJtC3Y.js" as="script"><link rel="prefetch" href="/assets/那些年我们踩过的那些坑.html-C1BI6oD2.js" as="script"><link rel="prefetch" href="/assets/好玩的Python.html-CpBhFJ_2.js" as="script"><link rel="prefetch" href="/assets/算法入门系列1-周而复始.html-32WRx0Tf.js" as="script"><link rel="prefetch" href="/assets/算法入门系列2 - 在水一方.html-ChrbgX52.js" as="script"><link rel="prefetch" href="/assets/404.html-8giqv0M_.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-CexIHObO.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><!----><!----></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading"> <!----></p><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content" vp-content><!--[--><!--]--><div><h2 id="年薪50w-的python程序员如何写代码" tabindex="-1"><a class="header-anchor" href="#年薪50w-的python程序员如何写代码"><span>年薪50W+的Python程序员如何写代码</span></a></h2><h3 id="为什么要用python写代码" tabindex="-1"><a class="header-anchor" href="#为什么要用python写代码"><span>为什么要用Python写代码</span></a></h3><h4 id="没有对比就没有伤害" tabindex="-1"><a class="header-anchor" href="#没有对比就没有伤害"><span>没有对比就没有伤害</span></a></h4><blockquote><p><strong>很多互联网和移动互联网企业对开发效率的要求高于对执行效率的要求</strong>。</p></blockquote><h5 id="例子1-hello-world" tabindex="-1"><a class="header-anchor" href="#例子1-hello-world"><span>例子1：hello, world</span></a></h5><p>C的版本：</p><div class="language-C line-numbers-mode" data-highlighter="prismjs" data-ext="C" data-title="C"><pre><code><span class="line">#include &lt;stdio.h&gt;</span>
+<span class="line"></span>
+<span class="line">int main() {</span>
+<span class="line">    printf(&quot;hello, world\n&quot;);</span>
+<span class="line">    return 0;</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Java的版本：</p><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java" data-title="Java"><pre><code><span class="line">class Example01 {</span>
+<span class="line">    </span>
+<span class="line">    public static void main(String[] args) {</span>
+<span class="line">        System.out.println(&quot;hello, world&quot;);</span>
+<span class="line">    }</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Python的版本：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">print(&#39;hello, world&#39;)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div><h5 id="例子2-1-100求和" tabindex="-1"><a class="header-anchor" href="#例子2-1-100求和"><span>例子2：1-100求和</span></a></h5><p>C的版本：</p><div class="language-C line-numbers-mode" data-highlighter="prismjs" data-ext="C" data-title="C"><pre><code><span class="line">#include &lt;stdio.h&gt;</span>
+<span class="line"></span>
+<span class="line">int main() {</span>
+<span class="line">    int total = 0;</span>
+<span class="line">    for (int i = 1; i &lt;= 100; ++i) {</span>
+<span class="line">        total += i;</span>
+<span class="line">    }</span>
+<span class="line">    printf(&quot;%d\n&quot;, total);</span>
+<span class="line">	return 0;</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Python的版本：</p><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java" data-title="Java"><pre><code><span class="line">print(sum(range(1, 101)))</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div><h5 id="例子3-创建和初始化数组-列表" tabindex="-1"><a class="header-anchor" href="#例子3-创建和初始化数组-列表"><span>例子3：创建和初始化数组（列表）</span></a></h5><p>Java的版本：</p><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java" data-title="Java"><pre><code><span class="line">import java.util.Arrays;</span>
+<span class="line"></span>
+<span class="line">public class Example03 {</span>
+<span class="line"></span>
+<span class="line">    public static void main(String[] args) {</span>
+<span class="line">        boolean[] values = new boolean[10];</span>
+<span class="line">        Arrays.fill(values, true);</span>
+<span class="line">        System.out.println(Arrays.toString(values));</span>
+<span class="line"></span>
+<span class="line">        int[] numbers = new int[10];</span>
+<span class="line">        for (int i = 0; i &lt; numbers.length; ++i) {</span>
+<span class="line">            numbers[i] = i + 1;</span>
+<span class="line">        }</span>
+<span class="line">        System.out.println(Arrays.toString(numbers));</span>
+<span class="line">    }</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Python的版本：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">values = [True] * 10</span>
+<span class="line">print(values)</span>
+<span class="line">numbers = [x for x in range(1, 11)]</span>
+<span class="line">print(numbers)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5 id="例子4-双色球随机选号" tabindex="-1"><a class="header-anchor" href="#例子4-双色球随机选号"><span>例子4：双色球随机选号</span></a></h5><p>Java的版本：</p><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java" data-title="Java"><pre><code><span class="line">import java.util.List;</span>
+<span class="line">import java.util.ArrayList;</span>
+<span class="line">import java.util.Collections;</span>
+<span class="line">import java.util.Scanner;</span>
+<span class="line"></span>
+<span class="line">class Example03 {</span>
+<span class="line"></span>
+<span class="line">    /**</span>
+<span class="line">     * 产生[min, max)范围的随机整数</span>
+<span class="line">     */</span>
+<span class="line">    public static int randomInt(int min, int max) {</span>
+<span class="line">        return (int) (Math.random() * (max - min) + min);</span>
+<span class="line">    }</span>
+<span class="line">    </span>
+<span class="line">    /**</span>
+<span class="line">     * 输出一组双色球号码</span>
+<span class="line">     */</span>
+<span class="line">    public static void display(List&lt;Integer&gt; balls) {</span>
+<span class="line">        for (int i = 0; i &lt; balls.size(); ++i) {</span>
+<span class="line">            System.out.printf(&quot;%02d &quot;, balls.get(i));</span>
+<span class="line">            if (i == balls.size() - 2) {</span>
+<span class="line">                System.out.print(&quot;| &quot;);</span>
+<span class="line">            }</span>
+<span class="line">        }</span>
+<span class="line">        System.out.println();</span>
+<span class="line">    }</span>
+<span class="line"></span>
+<span class="line">    /**</span>
+<span class="line">     * 生成一组随机号码</span>
+<span class="line">     */</span>
+<span class="line">    public static List&lt;Integer&gt; generate() {</span>
+<span class="line">        List&lt;Integer&gt; redBalls = new ArrayList&lt;&gt;();</span>
+<span class="line">        for (int i = 1; i &lt;= 33; ++i) {</span>
+<span class="line">            redBalls.add(i);</span>
+<span class="line">        }</span>
+<span class="line">        List&lt;Integer&gt; selectedBalls = new ArrayList&lt;&gt;();</span>
+<span class="line">        for (int i = 0; i &lt; 6; ++i) {</span>
+<span class="line">            selectedBalls.add(redBalls.remove(randomInt(0, redBalls.size())));</span>
+<span class="line">        }</span>
+<span class="line">        Collections.sort(selectedBalls);</span>
+<span class="line">        selectedBalls.add(randomInt(1, 17));</span>
+<span class="line">        return selectedBalls;</span>
+<span class="line">    }</span>
+<span class="line">    </span>
+<span class="line">    public static void main(String[] args) {</span>
+<span class="line">        try (Scanner sc = new Scanner(System.in)) {</span>
+<span class="line">            System.out.print(&quot;机选几注: &quot;);</span>
+<span class="line">            int num = sc.nextInt();</span>
+<span class="line">            for (int i = 0; i &lt; num; ++i) {</span>
+<span class="line">                display(generate());</span>
+<span class="line">            }</span>
+<span class="line">        }</span>
+<span class="line">    }</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Python的版本：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from random import randint, sample</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def generate():</span>
+<span class="line">    &quot;&quot;&quot;生成一组随机号码&quot;&quot;&quot;</span>
+<span class="line">    red_balls = [x for x in range(1, 34)]</span>
+<span class="line">    selected_balls = sample(red_balls, 6)</span>
+<span class="line">    selected_balls.sort()</span>
+<span class="line">    selected_balls.append(randint(1, 16))</span>
+<span class="line">    return selected_balls</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def display(balls):</span>
+<span class="line">    &quot;&quot;&quot;输出一组双色球号码&quot;&quot;&quot;</span>
+<span class="line">    for index, ball in enumerate(balls):</span>
+<span class="line">        print(f&#39;{ball:0&gt;2d}&#39;, end=&#39; &#39;)</span>
+<span class="line">        if index == len(balls) - 2:</span>
+<span class="line">            print(&#39;|&#39;, end=&#39; &#39;)</span>
+<span class="line">    print()</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">num = int(input(&#39;机选几注: &#39;))</span>
+<span class="line">for _ in range(num):</span>
+<span class="line">    display(generate())</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><strong>温馨提示</strong>：珍爱生命，远离任何形式的赌博。</p></blockquote><h5 id="例子5-实现一个简单的http服务器。" tabindex="-1"><a class="header-anchor" href="#例子5-实现一个简单的http服务器。"><span>例子5：实现一个简单的HTTP服务器。</span></a></h5><p>Java的版本：</p><blockquote><p><strong>说明</strong>：JDK 1.6以前，需要通过套接字编程来实现，具体又可以分为多线程和NIO两种做法。JDK 1.6以后，可以使用<code>com.sun.net.httpserver</code>包提供的<code>HttpServer</code>类来实现。</p></blockquote><div class="language-Java line-numbers-mode" data-highlighter="prismjs" data-ext="Java" data-title="Java"><pre><code><span class="line">import com.sun.net.httpserver.HttpExchange;</span>
+<span class="line">import com.sun.net.httpserver.HttpHandler;</span>
+<span class="line">import com.sun.net.httpserver.HttpServer;</span>
+<span class="line"></span>
+<span class="line">import java.io.IOException;</span>
+<span class="line">import java.io.OutputStream;</span>
+<span class="line">import java.net.InetSocketAddress;</span>
+<span class="line"></span>
+<span class="line">class Example05 {</span>
+<span class="line"></span>
+<span class="line">    public static void main(String[] arg) throws Exception {</span>
+<span class="line">        HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);</span>
+<span class="line">        server.createContext(&quot;/&quot;, new RequestHandler());</span>
+<span class="line">        server.start();</span>
+<span class="line">    }</span>
+<span class="line"></span>
+<span class="line">    static class RequestHandler implements HttpHandler {</span>
+<span class="line">        </span>
+<span class="line">        @Override</span>
+<span class="line">        public void handle(HttpExchange exchange) throws IOException {</span>
+<span class="line">            String response = &quot;&lt;h1&gt;hello, world&lt;/h1&gt;&quot;;</span>
+<span class="line">            exchange.sendResponseHeaders(200, 0);</span>
+<span class="line">            try (OutputStream os = exchange.getResponseBody()) {</span>
+<span class="line">                os.write(response.getBytes());</span>
+<span class="line">            }</span>
+<span class="line">        }</span>
+<span class="line">    }</span>
+<span class="line">}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Python的版本：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from http.server import HTTPServer, SimpleHTTPRequestHandler</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class RequestHandler(SimpleHTTPRequestHandler):</span>
+<span class="line"></span>
+<span class="line">    def do_GET(self):</span>
+<span class="line">        self.send_response(200)</span>
+<span class="line">        self.end_headers()</span>
+<span class="line">        self.wfile.write(&#39;&lt;h1&gt;hello, world&lt;/h1&gt;&#39;.encode())</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">server = HTTPServer((&#39;&#39;, 8000), RequestHandler)</span>
+<span class="line">server.serve_forever()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>或</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">python3 -m http.server 8000</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div><h4 id="一行python代码可以做什么" tabindex="-1"><a class="header-anchor" href="#一行python代码可以做什么"><span>一行Python代码可以做什么</span></a></h4><blockquote><p><strong>很多时候，你的问题只需一行Python代码就能解决</strong>。</p></blockquote><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line"># 一行代码实现求阶乘函数</span>
+<span class="line">fac = lambda x: __import__(&#39;functools&#39;).reduce(int.__mul__, range(1, x + 1), 1)</span>
+<span class="line"></span>
+<span class="line"># 一行代码实现求最大公约数函数</span>
+<span class="line">gcd = lambda x, y: y % x and gcd(y % x, x) or x</span>
+<span class="line"></span>
+<span class="line"># 一行代码实现判断素数的函数</span>
+<span class="line">is_prime = lambda x: x &gt; 1 and not [f for f in range(2, int(x ** 0.5) + 1) if x % f == 0]</span>
+<span class="line"></span>
+<span class="line"># 一行代码实现快速排序</span>
+<span class="line">quick_sort = lambda items: len(items) and quick_sort([x for x in items[1:] if x &lt; items[0]]) + [items[0]] + quick_sort([x for x in items[1:] if x &gt; items[0]]) or items</span>
+<span class="line"></span>
+<span class="line"># 生成FizzBuzz列表</span>
+<span class="line">[&#39;Fizz&#39;[x % 3 * 4:] + &#39;Buzz&#39;[x % 5 * 4:] or x for x in range(1, 101)]</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="设计模式从未如此简单" tabindex="-1"><a class="header-anchor" href="#设计模式从未如此简单"><span>设计模式从未如此简单</span></a></h4><blockquote><p><strong>Python是动态类型语言，大量的设计模式在Python中被简化或弱化</strong>。</p></blockquote><p>思考：如何优化下面的代码。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">def fib(num):</span>
+<span class="line">    if num in (1, 2):</span>
+<span class="line">        return 1</span>
+<span class="line">    return fib(num - 1) + fib(num - 2)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>代理模式在Python中可以通过内置的或自定义的装饰器来实现。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from functools import lru_cache</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">@lru_cache()</span>
+<span class="line">def fib(num):</span>
+<span class="line">    if num in (1, 2):</span>
+<span class="line">        return 1</span>
+<span class="line">    return fib(num - 1) + fib(num - 2)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">for n in range(1, 121):</span>
+<span class="line">    print(f&#39;{n}: {fib(n)}&#39;)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><strong>说明</strong>：通过Python标准库<code>functools</code>模块的<code>lru_cache</code>装饰器为<code>fib</code>函数加上缓存代理，缓存函数执行的中间结果，优化代码的性能。</p></blockquote><p>单例模式在Python中可以通过自定义的装饰器或元类来实现。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from functools import wraps</span>
+<span class="line">from threading import RLock</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def singleton(cls):</span>
+<span class="line">    instances = {}</span>
+<span class="line">    lock = RLock()</span>
+<span class="line"></span>
+<span class="line">    @wraps(cls)</span>
+<span class="line">    def wrapper(*args, **kwargs):</span>
+<span class="line">        if cls not in instances:</span>
+<span class="line">            with lock:</span>
+<span class="line">                if cls not in instances:</span>
+<span class="line">                    instances[cls] = cls(*args, **kwargs)</span>
+<span class="line">        return instances[cls]</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><strong>说明</strong>：需要实现单例模式的类只需要添加上面的装饰器即可。</p></blockquote><p>原型模式在Python中可以通过元类来实现。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">import copy</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class PrototypeMeta(type):</span>
+<span class="line"></span>
+<span class="line">    def __init__(cls, *args, **kwargs):</span>
+<span class="line">        super().__init__(*args, **kwargs)</span>
+<span class="line">        cls.clone = lambda self, is_deep=True: \</span>
+<span class="line">            copy.deepcopy(self) if is_deep else copy.copy(self)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><strong>说明</strong>：通过元类给指定了<code>metaclass=PrototypeMeta</code>的类添加一个<code>clone</code>方法实现对象克隆，利用Python标准库<code>copy</code>模块的<code>copy</code>和<code>deepcopy</code>分别实现浅拷贝和深拷贝。</p></blockquote><h4 id="数据采集和数据分析从未如此简单" tabindex="-1"><a class="header-anchor" href="#数据采集和数据分析从未如此简单"><span>数据采集和数据分析从未如此简单</span></a></h4><blockquote><p><strong>网络数据采集是Python最擅长的领域之一。</strong></p></blockquote><p>例子：获取豆瓣电影“Top250”。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">import random</span>
+<span class="line">import time</span>
+<span class="line"></span>
+<span class="line">import requests</span>
+<span class="line">from bs4 import BeautifulSoup</span>
+<span class="line"></span>
+<span class="line">for page in range(10):</span>
+<span class="line">    resp = requests.get(</span>
+<span class="line">        url=f&#39;https://movie.douban.com/top250?start={25 * page}&#39;,</span>
+<span class="line">        headers={&#39;User-Agent&#39;: &#39;BaiduSpider&#39;}</span>
+<span class="line">    )</span>
+<span class="line">    soup = BeautifulSoup(resp.text, &quot;lxml&quot;)</span>
+<span class="line">    for elem in soup.select(&#39;a &gt; span.title:nth-child(1)&#39;):</span>
+<span class="line">        print(elem.text)</span>
+<span class="line">    time.sleep(random.random() * 5)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><strong>利用NumPy、Pandas、Matplotlib可以轻松实现数据分析和可视化</strong>。</p></blockquote><p><img src="/assets/use-pandas-in-jupyter-notebook-B2TD9TXT.png" alt=""></p><h3 id="写出python代码的正确姿势" tabindex="-1"><a class="header-anchor" href="#写出python代码的正确姿势"><span>写出Python代码的正确姿势</span></a></h3><blockquote><p><strong>用Python写代码就要写出Pythonic的代码</strong>。</p></blockquote><h4 id="姿势1-选择结构的正确姿势" tabindex="-1"><a class="header-anchor" href="#姿势1-选择结构的正确姿势"><span>姿势1：选择结构的正确姿势</span></a></h4><p>跨界开发者的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">name = &#39;jackfrued&#39;</span>
+<span class="line">fruits = [&#39;apple&#39;, &#39;orange&#39;, &#39;grape&#39;]</span>
+<span class="line">owners = {&#39;name&#39;: &#39;骆昊&#39;, &#39;age&#39;: 40, &#39;gender&#39;: True}</span>
+<span class="line">if name != &#39;&#39; and len(fruits) &gt; 0 and len(owners.keys()) &gt; 0:</span>
+<span class="line">    print(&#39;Jackfrued love fruits.&#39;)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Pythonic的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">name = &#39;jackfrued&#39;</span>
+<span class="line">fruits = [&#39;apple&#39;, &#39;orange&#39;, &#39;grape&#39;]</span>
+<span class="line">owners = {&#39;name&#39;: &#39;骆昊&#39;, &#39;age&#39;: 40, &#39;gender&#39;: True}</span>
+<span class="line">if name and fruits and owners:</span>
+<span class="line">    print(&#39;Jackfrued love fruits.&#39;)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="姿势2-交换两个变量的正确姿势" tabindex="-1"><a class="header-anchor" href="#姿势2-交换两个变量的正确姿势"><span>姿势2：交换两个变量的正确姿势</span></a></h4><p>跨界开发者的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">temp = a</span>
+<span class="line">a = b</span>
+<span class="line">b = temp</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>或</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">a = a ^ b</span>
+<span class="line">b = a ^ b</span>
+<span class="line">a = a ^ b</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Pythonic的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">a, b = b, a</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div><h4 id="姿势3-用序列组装字符串的正确姿势" tabindex="-1"><a class="header-anchor" href="#姿势3-用序列组装字符串的正确姿势"><span>姿势3：用序列组装字符串的正确姿势</span></a></h4><p>跨界开发者的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">chars = [&#39;j&#39;, &#39;a&#39;, &#39;c&#39;, &#39;k&#39;, &#39;f&#39;, &#39;r&#39;, &#39;u&#39;, &#39;e&#39;, &#39;d&#39;]</span>
+<span class="line">name = &#39;&#39;</span>
+<span class="line">for char in chars:</span>
+<span class="line">    name += char</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Pythonic的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">chars = [&#39;j&#39;, &#39;a&#39;, &#39;c&#39;, &#39;k&#39;, &#39;f&#39;, &#39;r&#39;, &#39;u&#39;, &#39;e&#39;, &#39;d&#39;]</span>
+<span class="line">name = &#39;&#39;.join(chars)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="姿势4-遍历列表的正确姿势" tabindex="-1"><a class="header-anchor" href="#姿势4-遍历列表的正确姿势"><span>姿势4：遍历列表的正确姿势</span></a></h4><p>跨界开发者的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">fruits = [&#39;orange&#39;, &#39;grape&#39;, &#39;pitaya&#39;, &#39;blueberry&#39;]</span>
+<span class="line">index = 0</span>
+<span class="line">for fruit in fruits:</span>
+<span class="line">    print(index, &#39;:&#39;, fruit)</span>
+<span class="line">    index += 1</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Pythonic的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">fruits = [&#39;orange&#39;, &#39;grape&#39;, &#39;pitaya&#39;, &#39;blueberry&#39;]</span>
+<span class="line">for index, fruit in enumerate(fruits):</span>
+<span class="line">    print(index, &#39;:&#39;, fruit)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="姿势5-创建列表的正确姿势" tabindex="-1"><a class="header-anchor" href="#姿势5-创建列表的正确姿势"><span>姿势5：创建列表的正确姿势</span></a></h4><p>跨界开发者的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">data = [7, 20, 3, 15, 11]</span>
+<span class="line">result = []</span>
+<span class="line">for i in data:</span>
+<span class="line">    if i &gt; 10:</span>
+<span class="line">        result.append(i * 3)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Pythonic的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">data = [7, 20, 3, 15, 11]</span>
+<span class="line">result = [num * 3 for num in data if num &gt; 10]</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="姿势6-确保代码健壮性的正确姿势" tabindex="-1"><a class="header-anchor" href="#姿势6-确保代码健壮性的正确姿势"><span>姿势6：确保代码健壮性的正确姿势</span></a></h4><p>跨界开发者的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">data = {&#39;x&#39;: &#39;5&#39;}</span>
+<span class="line">if &#39;x&#39; in data and isinstance(data[&#39;x&#39;], (str, int, float)) \</span>
+<span class="line">        and data[&#39;x&#39;].isdigit():</span>
+<span class="line">    value = int(data[&#39;x&#39;])</span>
+<span class="line">    print(value)</span>
+<span class="line">else:</span>
+<span class="line">    value = None</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Pythonic的代码：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">data = {&#39;x&#39;: &#39;5&#39;}</span>
+<span class="line">try:</span>
+<span class="line">    value = int(data[&#39;x&#39;])</span>
+<span class="line">    print(value)</span>
+<span class="line">except (KeyError, TypeError, ValueError):</span>
+<span class="line">    value = None</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="使用lint工具检查你的代码规范" tabindex="-1"><a class="header-anchor" href="#使用lint工具检查你的代码规范"><span>使用Lint工具检查你的代码规范</span></a></h3><p>阅读下面的代码，看看你能看出哪些地方是有毛病的或者说不符合Python的编程规范的。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from enum import *</span>
+<span class="line"></span>
+<span class="line">@unique</span>
+<span class="line">class Suite (Enum):</span>
+<span class="line">    SPADE, HEART, CLUB, DIAMOND = range(4)</span>
+<span class="line"></span>
+<span class="line">class Card(object):</span>
+<span class="line">    def __init__(self,suite,face ):</span>
+<span class="line">        self.suite = suite</span>
+<span class="line">        self.face = face</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">    def __repr__(self):</span>
+<span class="line">        suites=&#39;♠♥♣♦&#39;</span>
+<span class="line">        faces=[&#39;&#39;,&#39;A&#39;,&#39;2&#39;,&#39;3&#39;,&#39;4&#39;,&#39;5&#39;,&#39;6&#39;,&#39;7&#39;,&#39;8&#39;,&#39;9&#39;,&#39;10&#39;,&#39;J&#39;,&#39;Q&#39;,&#39;K&#39;]</span>
+<span class="line">        return f&#39;{suites[self.suite.value]}{faces[self.face]}&#39;</span>
+<span class="line"></span>
+<span class="line">import random</span>
+<span class="line"></span>
+<span class="line">class Poker(object):</span>
+<span class="line">    def __init__(self):</span>
+<span class="line">        self.cards =[Card(suite, face) for suite in Suite</span>
+<span class="line">            for face in range(1, 14)]</span>
+<span class="line">        self.current=0</span>
+<span class="line">    def shuffle (self):</span>
+<span class="line">        self.current=0</span>
+<span class="line">        random.shuffle(self.cards)</span>
+<span class="line">    def deal (self):</span>
+<span class="line">        card = self.cards[self.current]</span>
+<span class="line">        self.current+=1</span>
+<span class="line">        return card</span>
+<span class="line">    def has_next (self):</span>
+<span class="line">        if self.current&lt;len(self.cards): return True</span>
+<span class="line">        return False</span>
+<span class="line"></span>
+<span class="line">p = Poker()</span>
+<span class="line">p.shuffle()</span>
+<span class="line">print(p.cards)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="pylint的安装和使用" tabindex="-1"><a class="header-anchor" href="#pylint的安装和使用"><span>PyLint的安装和使用</span></a></h4><p>Pylint是Python代码分析工具，它分析Python代码中的错误，查找不符合代码风格标准（默认使用的代码风格是 PEP 8）和有潜在问题的代码。</p><div class="language-Bash line-numbers-mode" data-highlighter="prismjs" data-ext="Bash" data-title="Bash"><pre><code><span class="line">pip install pylint</span>
+<span class="line">pylint [options] module_or_package</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><p>Pylint输出格式如下所示。</p><blockquote><p>模块名:行号:列号: 消息类型 消息</p></blockquote><p>消息类型有以下几种：</p><ol><li>C - 惯例：违反了Python编程惯例（PEP 8）的代码。</li><li>R - 重构：写得比较糟糕需要重构的代码。</li><li>W - 警告：代码中存在的不影响代码运行的问题。</li><li>E - 错误：代码中存在的影响代码运行的错误。</li><li>F - 致命错误：导致Pylint无法继续运行的错误。</li></ol><p>Pylint命令的常用参数：</p><ol><li><code>--disable=&lt;msg ids&gt;</code>或<code>-d &lt;msg ids&gt;</code>：禁用指定类型的消息。</li><li><code>--errors-only</code>或<code>-E</code>：只显示错误。</li><li><code>--rcfile=&lt;file&gt;</code>：指定配置文件。</li><li><code>--list-msgs</code>：列出Pylint的消息清单。</li><li><code>--generate-rcfile</code>：生成配置文件的样例。</li><li><code>--reports=&lt;y_or_n&gt;</code>或<code>-r &lt;y_or_n&gt;</code>：是否生成检查报告。</li></ol><h3 id="使用profile工具剖析你的代码性能" tabindex="-1"><a class="header-anchor" href="#使用profile工具剖析你的代码性能"><span>使用Profile工具剖析你的代码性能</span></a></h3><h4 id="cprofile模块" tabindex="-1"><a class="header-anchor" href="#cprofile模块"><span>cProfile模块</span></a></h4><p><code>example01.py</code></p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">import cProfile</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def is_prime(num):</span>
+<span class="line">    for factor in range(2, int(num ** 0.5) + 1):</span>
+<span class="line">        if num % factor == 0:</span>
+<span class="line">            return False</span>
+<span class="line">    return True</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class PrimeIter:</span>
+<span class="line"></span>
+<span class="line">    def __init__(self, total):</span>
+<span class="line">        self.counter = 0</span>
+<span class="line">        self.current = 1</span>
+<span class="line">        self.total = total</span>
+<span class="line"></span>
+<span class="line">    def __iter__(self):</span>
+<span class="line">        return self</span>
+<span class="line"></span>
+<span class="line">    def __next__(self):</span>
+<span class="line">        if self.counter &lt; self.total:</span>
+<span class="line">            self.current += 1</span>
+<span class="line">            while not is_prime(self.current):</span>
+<span class="line">                self.current += 1</span>
+<span class="line">            self.counter += 1</span>
+<span class="line">            return self.current</span>
+<span class="line">        raise StopIteration()</span>
+<span class="line"></span>
+<span class="line">        </span>
+<span class="line">cProfile.run(&#39;list(PrimeIter(10000))&#39;)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>执行结果：</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">   114734 function calls in 0.573 seconds</span>
+<span class="line"></span>
+<span class="line">   Ordered by: standard name</span>
+<span class="line"></span>
+<span class="line">   ncalls  tottime  percall  cumtime  percall filename:lineno(function)</span>
+<span class="line">        1    0.006    0.006    0.573    0.573 &lt;string&gt;:1(&lt;module&gt;)</span>
+<span class="line">        1    0.000    0.000    0.000    0.000 example.py:14(__init__)</span>
+<span class="line">        1    0.000    0.000    0.000    0.000 example.py:19(__iter__)</span>
+<span class="line">    10001    0.086    0.000    0.567    0.000 example.py:22(__next__)</span>
+<span class="line">   104728    0.481    0.000    0.481    0.000 example.py:5(is_prime)</span>
+<span class="line">        1    0.000    0.000    0.573    0.573 {built-in method builtins.exec}</span>
+<span class="line">        1    0.000    0.000    0.000    0.000 {method &#39;disable&#39; of &#39;_lsprof.Profiler&#39; objects}</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>####line_profiler</p><p>给需要剖析时间性能的函数加上一个<code>profile</code>装饰器，这个函数每行代码的执行次数和时间都会被剖析。</p><p><code>example02.py</code></p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">@profile</span>
+<span class="line">def is_prime(num):</span>
+<span class="line">    for factor in range(2, int(num ** 0.5) + 1):</span>
+<span class="line">        if num % factor == 0:</span>
+<span class="line">            return False</span>
+<span class="line">    return True</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class PrimeIter:</span>
+<span class="line"></span>
+<span class="line">    def __init__(self, total):</span>
+<span class="line">        self.counter = 0</span>
+<span class="line">        self.current = 1</span>
+<span class="line">        self.total = total</span>
+<span class="line"></span>
+<span class="line">    def __iter__(self):</span>
+<span class="line">        return self</span>
+<span class="line"></span>
+<span class="line">    def __next__(self):</span>
+<span class="line">        if self.counter &lt; self.total:</span>
+<span class="line">            self.current += 1</span>
+<span class="line">            while not is_prime(self.current):</span>
+<span class="line">                self.current += 1</span>
+<span class="line">            self.counter += 1</span>
+<span class="line">            return self.current</span>
+<span class="line">        raise StopIteration()</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">list(PrimeIter(1000))</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>安装和使用<code>line_profiler</code>三方库。</p><div class="language-Bash line-numbers-mode" data-highlighter="prismjs" data-ext="Bash" data-title="Bash"><pre><code><span class="line">pip install line_profiler</span>
+<span class="line">kernprof -lv example.py</span>
+<span class="line"></span>
+<span class="line">Wrote profile results to example02.py.lprof</span>
+<span class="line">Timer unit: 1e-06 s</span>
+<span class="line"></span>
+<span class="line">Total time: 0.089513 s</span>
+<span class="line">File: example02.py</span>
+<span class="line">Function: is_prime at line 1</span>
+<span class="line"></span>
+<span class="line"> #      Hits         Time  Per Hit   % Time  Line Contents</span>
+<span class="line">==============================================================</span>
+<span class="line"> 1                                           @profile</span>
+<span class="line"> 2                                           def is_prime(num):</span>
+<span class="line"> 3     86624      43305.0      0.5     48.4      for factor in range(2, int(num ** 0.5) + 1):</span>
+<span class="line"> 4     85624      42814.0      0.5     47.8          if num % factor == 0:</span>
+<span class="line"> 5      6918       3008.0      0.4      3.4              return False</span>
+<span class="line"> 6      1000        386.0      0.4      0.4      return True</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>####memory_profiler</p><p>给需要剖析内存性能的函数加上一个<code>profile</code>装饰器，这个函数每行代码的内存使用情况都会被剖析。</p><p><code>example03.py</code></p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">@profile</span>
+<span class="line">def eat_memory():</span>
+<span class="line">    items = []</span>
+<span class="line">    for _ in range(1000000):</span>
+<span class="line">        items.append(object())</span>
+<span class="line">    return items</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">eat_memory()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>安装和使用<code>memory_profiler</code>三方库。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">pip install memory_profiler</span>
+<span class="line">python3 -m memory_profiler example.py</span>
+<span class="line"></span>
+<span class="line">Filename: example03.py</span>
+<span class="line"></span>
+<span class="line">Line #    Mem usage    Increment   Line Contents</span>
+<span class="line">================================================</span>
+<span class="line">     1   38.672 MiB   38.672 MiB   @profile</span>
+<span class="line">     2                             def eat_memory():</span>
+<span class="line">     3   38.672 MiB    0.000 MiB       items = []</span>
+<span class="line">     4   68.727 MiB    0.000 MiB       for _ in range(1000000):</span>
+<span class="line">     5   68.727 MiB    1.797 MiB           items.append(object())</span>
+<span class="line">     6   68.727 MiB    0.000 MiB       return items</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="如何构建综合职业素养" tabindex="-1"><a class="header-anchor" href="#如何构建综合职业素养"><span>如何构建综合职业素养</span></a></h3><h4 id="学习总结" tabindex="-1"><a class="header-anchor" href="#学习总结"><span>学习总结</span></a></h4><ol><li>了解全局</li><li>确定范围</li><li>定义目标</li><li>寻找资源</li><li>创建学习计划</li><li>筛选资源</li><li>开始学习，浅尝辄止（YAGNI）</li><li>动手操作，边学边玩</li><li>全面掌握，学以致用</li><li>乐为人师，融会贯通</li></ol><h4 id="时间管理" tabindex="-1"><a class="header-anchor" href="#时间管理"><span>时间管理</span></a></h4><ol><li><p>提升专注力</p></li><li><p>充分利用碎片时间</p></li><li><p>使用番茄工作法</p></li><li><p>时间是怎么浪费掉的</p></li><li><p>任何行动都比不采取行动好</p><p><img src="/assets/action-DeWZemqK.png" alt=""></p></li></ol><h4 id="好书推荐" tabindex="-1"><a class="header-anchor" href="#好书推荐"><span>好书推荐</span></a></h4><ol><li>职业规划：《软技能 - 代码之外的生存指南》</li><li>吴军系列：《浪潮之巅》、《硅谷之谜》、《数学之美》、……</li><li>时间管理：《成为一个更高效的人》、《番茄工作法图解》</li></ol></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-D-bq_jAa.js" defer></script>
+  </body>
+</html>

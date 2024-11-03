@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title></title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-PoWje89h.css" as="style"><link rel="stylesheet" href="/assets/style-PoWje89h.css">
+    <link rel="modulepreload" href="/assets/app-D-bq_jAa.js"><link rel="modulepreload" href="/assets/08.面向对象编程基础.html-D_lfcD_q.js">
+    <link rel="prefetch" href="/assets/index.html-gliNvsHQ.js" as="script"><link rel="prefetch" href="/assets/01.初识Python.html-BwFdoIKy.js" as="script"><link rel="prefetch" href="/assets/02.语言元素.html-CYMl2Yed.js" as="script"><link rel="prefetch" href="/assets/03.分支结构.html-BSYx_tCp.js" as="script"><link rel="prefetch" href="/assets/04.循环结构.html-BJZpY12e.js" as="script"><link rel="prefetch" href="/assets/05.构造程序逻辑.html-BQzZubpL.js" as="script"><link rel="prefetch" href="/assets/06.函数和模块的使用.html-D2HnWKET.js" as="script"><link rel="prefetch" href="/assets/07.字符串和常用数据结构.html-CKl8znKO.js" as="script"><link rel="prefetch" href="/assets/09.面向对象进阶.html-2lzuIX0a.js" as="script"><link rel="prefetch" href="/assets/10.图形用户界面和游戏开发.html-By17OOos.js" as="script"><link rel="prefetch" href="/assets/11.文件和异常.html-CgLQgdd8.js" as="script"><link rel="prefetch" href="/assets/12.字符串和正则表达式.html-BPI-RzQV.js" as="script"><link rel="prefetch" href="/assets/13.进程和线程.html-cUulhaPG.js" as="script"><link rel="prefetch" href="/assets/14.网络编程入门和网络应用开发.html-BtJ52ysb.js" as="script"><link rel="prefetch" href="/assets/15.图像和办公文档处理.html-CmKSYg3w.js" as="script"><link rel="prefetch" href="/assets/21-30.Web前端概述.html-BQnr2GML.js" as="script"><link rel="prefetch" href="/assets/16-20.Python语言进阶.html-B6OMzyDF.js" as="script"><link rel="prefetch" href="/assets/31-35.玩转Linux操作系统.html-ZmKmt6al.js" as="script"><link rel="prefetch" href="/assets/46.Django快速上手.html-ClDn9mK8.js" as="script"><link rel="prefetch" href="/assets/47.深入模型.html-BeXTv4Gh.js" as="script"><link rel="prefetch" href="/assets/48.静态资源和Ajax请求.html-CBsfW0m5.js" as="script"><link rel="prefetch" href="/assets/49.Cookie和Session.html-OKxZdF5r.js" as="script"><link rel="prefetch" href="/assets/50.制作报表.html-CHohPMoE.js" as="script"><link rel="prefetch" href="/assets/51.日志和调试工具栏.html-IHfUTr24.js" as="script"><link rel="prefetch" href="/assets/52.中间件的应用.html-EITG4bC6.js" as="script"><link rel="prefetch" href="/assets/53.前后端分离开发入门.html-CSfpFnpc.js" as="script"><link rel="prefetch" href="/assets/54.RESTful架构和DRF入门.html-unYp2iVf.js" as="script"><link rel="prefetch" href="/assets/55.RESTful架构和DRF进阶.html-Bimn41qo.js" as="script"><link rel="prefetch" href="/assets/56.使用缓存.html-DygStMaf.js" as="script"><link rel="prefetch" href="/assets/57.接入三方平台.html-BOYDJBOY.js" as="script"><link rel="prefetch" href="/assets/58.异步任务和定时任务.html-Df3PFO5Q.js" as="script"><link rel="prefetch" href="/assets/59.单元测试.html-DsPevIDF.js" as="script"><link rel="prefetch" href="/assets/60.项目上线.html-DMRv6p1t.js" as="script"><link rel="prefetch" href="/assets/36.关系型数据库和MySQL概述.html-BxE9DXEh.js" as="script"><link rel="prefetch" href="/assets/37.SQL详解之DDL.html-Bgp1k0eR.js" as="script"><link rel="prefetch" href="/assets/38.SQL详解之DML.html-uimrZls-.js" as="script"><link rel="prefetch" href="/assets/39.SQL详解之DQL.html-Ddo7fJHv.js" as="script"><link rel="prefetch" href="/assets/40.SQL详解之DCL.html-CE0er4AB.js" as="script"><link rel="prefetch" href="/assets/41.MySQL新特性.html-Be23vhPq.js" as="script"><link rel="prefetch" href="/assets/42.视图、函数和过程.html-JJRxgqze.js" as="script"><link rel="prefetch" href="/assets/43.索引.html-DCuE2oxz.js" as="script"><link rel="prefetch" href="/assets/44.Python接入MySQL数据库.html-CDHCppw7.js" as="script"><link rel="prefetch" href="/assets/45.大数据平台和HiveSQL.html-BoScJKu1.js" as="script"><link rel="prefetch" href="/assets/66.数据分析概述.html-BnwcA8AB.js" as="script"><link rel="prefetch" href="/assets/67.环境准备.html-DHxqV8P9.js" as="script"><link rel="prefetch" href="/assets/68.NumPy的应用-1.html-B3M5Stew.js" as="script"><link rel="prefetch" href="/assets/69.NumPy的应用-2.html-DINfPSOD.js" as="script"><link rel="prefetch" href="/assets/70.NumPy的应用-3.html-Cq0BS2Tg.js" as="script"><link rel="prefetch" href="/assets/71.NumPy的应用-4.html-BONDNBne.js" as="script"><link rel="prefetch" href="/assets/72.深入浅出pandas-1.html-mfHBd5ix.js" as="script"><link rel="prefetch" href="/assets/73.深入浅出pandas-2.html-BzB_BqJB.js" as="script"><link rel="prefetch" href="/assets/74.深入浅出pandas-3.html-CsRWNuji.js" as="script"><link rel="prefetch" href="/assets/75.深入浅出pandas-4.html-BvqbzoEe.js" as="script"><link rel="prefetch" href="/assets/76.深入浅出pandas-5.html-ukdSbkgj.js" as="script"><link rel="prefetch" href="/assets/77.深入浅出pandas-6.html-Cb21IcVJ.js" as="script"><link rel="prefetch" href="/assets/78.数据可视化-1.html-B7sXt-G5.js" as="script"><link rel="prefetch" href="/assets/79.数据可视化-2.html-Bv_oTn1i.js" as="script"><link rel="prefetch" href="/assets/80.数据可视化-3.html-BLZsn4HV.js" as="script"><link rel="prefetch" href="/assets/61.网络数据采集概述.html-CjR5vzG3.js" as="script"><link rel="prefetch" href="/assets/62.用Python获取网络资源-1.html-BKM7qrLE.js" as="script"><link rel="prefetch" href="/assets/62.用Python解析HTML页面-2.html-Dtcd-kct.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-1.html-BekWYpsa.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-2.html-CVXcHBzj.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-3.html-BlfLRjkc.js" as="script"><link rel="prefetch" href="/assets/63.并发编程在爬虫中的应用.html-ti0e-1h5.js" as="script"><link rel="prefetch" href="/assets/64.使用Selenium抓取网页动态内容.html-BLFVKpq_.js" as="script"><link rel="prefetch" href="/assets/65.爬虫框架Scrapy简介.html-W8heCdhA.js" as="script"><link rel="prefetch" href="/assets/81.人工智能和机器学习概述.html-Ca7AYT__.js" as="script"><link rel="prefetch" href="/assets/82.k最近邻算法.html-CGQnIPO4.js" as="script"><link rel="prefetch" href="/assets/83.决策树.html-BwWQjZ__.js" as="script"><link rel="prefetch" href="/assets/84.聚类算法.html-BnETr6ij.js" as="script"><link rel="prefetch" href="/assets/85.朴素贝叶斯算法.html-Rct6EKZw.js" as="script"><link rel="prefetch" href="/assets/86.支持向量机.html-yAGpiCbO.js" as="script"><link rel="prefetch" href="/assets/87.回归分析.html-BO-2cKfh.js" as="script"><link rel="prefetch" href="/assets/88.深度学习入门.html-BOSrbht3.js" as="script"><link rel="prefetch" href="/assets/89.PyTorch概述.html-BXDTY1W0.js" as="script"><link rel="prefetch" href="/assets/90.PyTorch实战.html-DWYNWcjH.js" as="script"><link rel="prefetch" href="/assets/100.Python面试题实录.html-C5EnR3Ed.js" as="script"><link rel="prefetch" href="/assets/91.团队项目开发的问题和解决方案.html-CECcJy8n.js" as="script"><link rel="prefetch" href="/assets/92.Docker容器技术详解.html-DGacXk8p.js" as="script"><link rel="prefetch" href="/assets/93.MySQL性能优化.html-BChvKIt4.js" as="script"><link rel="prefetch" href="/assets/94.网络API接口设计.html-ChQlRSGo.js" as="script"><link rel="prefetch" href="/assets/95.使用Django开发商业项目.html-DECQMK9m.js" as="script"><link rel="prefetch" href="/assets/96.软件测试和自动化测试.html-D3r3us4u.js" as="script"><link rel="prefetch" href="/assets/97.电商网站技术要点剖析.html-hB1D5G1G.js" as="script"><link rel="prefetch" href="/assets/98.项目部署上线和性能调优.html-CT3LhWhJ.js" as="script"><link rel="prefetch" href="/assets/99.面试中的公共问题.html-DMTzlILS.js" as="script"><link rel="prefetch" href="/assets/PEP8风格指南.html-DN3Ws3cc.js" as="script"><link rel="prefetch" href="/assets/Python之禅的最佳翻译.html-TKNJu8cq.js" as="script"><link rel="prefetch" href="/assets/Python参考书籍.html-CO-ccpF4.js" as="script"><link rel="prefetch" href="/assets/Python容器使用小技巧.html-DZR49nel.js" as="script"><link rel="prefetch" href="/assets/Python数据分析师面试题.html-YtNemgMP.js" as="script"><link rel="prefetch" href="/assets/Python编程惯例.html-CvmEKn9m.js" as="script"><link rel="prefetch" href="/assets/一个小例子助你彻底理解协程.html-Cq1CFFHT.js" as="script"><link rel="prefetch" href="/assets/使用Hexo搭建自己的博客.html-CXPev5HK.js" as="script"><link rel="prefetch" href="/assets/常见反爬策略及应对方案.html-DCecg34L.js" as="script"><link rel="prefetch" href="/assets/我为什么选择了Python.html-BuUPym1o.js" as="script"><link rel="prefetch" href="/assets/接口文档参考示例.html-GRoBovI1.js" as="script"><link rel="prefetch" href="/assets/玩转PyCharm.html--XkJxH2_.js" as="script"><link rel="prefetch" href="/assets/用函数还是用复杂的表达式.html-2n5kS7oc.js" as="script"><link rel="prefetch" href="/assets/知乎问题回答.html-CkWOFmLg.js" as="script"><link rel="prefetch" href="/assets/英语面试.html-CZGJtC3Y.js" as="script"><link rel="prefetch" href="/assets/那些年我们踩过的那些坑.html-C1BI6oD2.js" as="script"><link rel="prefetch" href="/assets/年薪50W_的Python程序员如何写代码.html-C49SuvhI.js" as="script"><link rel="prefetch" href="/assets/好玩的Python.html-CpBhFJ_2.js" as="script"><link rel="prefetch" href="/assets/算法入门系列1-周而复始.html-32WRx0Tf.js" as="script"><link rel="prefetch" href="/assets/算法入门系列2 - 在水一方.html-ChrbgX52.js" as="script"><link rel="prefetch" href="/assets/404.html-8giqv0M_.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-CexIHObO.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><!----><!----></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading"> <!----></p><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content" vp-content><!--[--><!--]--><div><h2 id="面向对象编程基础" tabindex="-1"><a class="header-anchor" href="#面向对象编程基础"><span>面向对象编程基础</span></a></h2><p>活在当下的程序员应该都听过&quot;面向对象编程&quot;一词，也经常有人问能不能用一句话解释下什么是&quot;面向对象编程&quot;，我们先来看看比较正式的说法。</p><p>&quot;把一组数据结构和处理它们的方法组成对象（object），把相同行为的对象归纳为类（class），通过类的封装（encapsulation）隐藏内部细节，通过继承（inheritance）实现类的特化（specialization）和泛化（generalization），通过多态（polymorphism）实现基于对象类型的动态分派。&quot;</p><p>这样一说是不是更不明白了。所以我们还是看看更通俗易懂的说法，下面这段内容来自于<a href="https://www.zhihu.com/" target="_blank" rel="noopener noreferrer">知乎</a>。</p><p><img src="/assets/oop-zhihu-EWnpqYiz.png" alt=""></p><blockquote><p><strong>说明：</strong> 以上的内容来自于网络，不代表作者本人的观点和看法，与作者本人立场无关，相关责任不由作者承担。</p></blockquote><p>之前我们说过&quot;<strong>程序是指令的集合</strong>&quot;，我们在程序中书写的语句在执行时会变成一条或多条指令然后由CPU去执行。当然为了简化程序的设计，我们引入了函数的概念，把相对独立且经常重复使用的代码放置到函数中，在需要使用这些功能的时候只要调用函数即可；如果一个函数的功能过于复杂和臃肿，我们又可以进一步将函数继续切分为子函数来降低系统的复杂性。但是说了这么多，不知道大家是否发现，所谓编程就是程序员按照计算机的工作方式控制计算机完成各种任务。但是，计算机的工作方式与正常人类的思维模式是不同的，如果编程就必须得抛弃人类正常的思维方式去迎合计算机，编程的乐趣就少了很多，&quot;每个人都应该学习编程&quot;这样的豪言壮语就只能说说而已。当然，这些还不是最重要的，最重要的是当我们需要开发一个复杂的系统时，代码的复杂性会让开发和维护工作都变得举步维艰，所以在上世纪60年代末期，&quot;<a href="https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%8D%B1%E6%9C%BA" target="_blank" rel="noopener noreferrer">软件危机</a>&quot;、&quot;<a href="https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B" target="_blank" rel="noopener noreferrer">软件工程</a>&quot;等一系列的概念开始在行业中出现。</p><p>当然，程序员圈子内的人都知道，现实中并没有解决上面所说的这些问题的&quot;<a href="https://zh.wikipedia.org/wiki/%E6%B2%A1%E6%9C%89%E9%93%B6%E5%BC%B9" target="_blank" rel="noopener noreferrer">银弹</a>&quot;，真正让软件开发者看到希望的是上世纪70年代诞生的<a href="https://zh.wikipedia.org/wiki/Smalltalk" target="_blank" rel="noopener noreferrer">Smalltalk</a>编程语言中引入的面向对象的编程思想（面向对象编程的雏形可以追溯到更早期的<a href="https://zh.wikipedia.org/wiki/Simula" target="_blank" rel="noopener noreferrer">Simula</a>语言）。按照这种编程理念，程序中的数据和操作数据的函数是一个逻辑上的整体，我们称之为“对象”，而我们解决问题的方式就是创建出需要的对象并向对象发出各种各样的消息，多个对象的协同工作最终可以让我们构造出复杂的系统来解决现实中的问题。</p><blockquote><p><strong>说明：</strong> 当然面向对象也不是解决软件开发中所有问题的最后的“银弹”，所以今天的高级程序设计语言几乎都提供了对多种编程范式的支持，Python也不例外。</p></blockquote><h3 id="类和对象" tabindex="-1"><a class="header-anchor" href="#类和对象"><span>类和对象</span></a></h3><p>简单的说，类是对象的蓝图和模板，而对象是类的实例。这个解释虽然有点像用概念在解释概念，但是从这句话我们至少可以看出，类是抽象的概念，而对象是具体的东西。在面向对象编程的世界中，一切皆为对象，对象都有属性和行为，每个对象都是独一无二的，而且对象一定属于某个类（型）。当我们把一大堆拥有共同特征的对象的静态特征（属性）和动态特征（行为）都抽取出来后，就可以定义出一个叫做“类”的东西。</p><p><img src="/assets/object-feature-DJ_oyZqt.png" alt=""></p><h3 id="定义类" tabindex="-1"><a class="header-anchor" href="#定义类"><span>定义类</span></a></h3><p>在Python中可以使用<code>class</code>关键字定义类，然后在类中通过之前学习过的函数来定义方法，这样就可以将对象的动态特征描述出来，代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">class Student(object):</span>
+<span class="line"></span>
+<span class="line">    # __init__是一个特殊方法用于在创建对象时进行初始化操作</span>
+<span class="line">    # 通过这个方法我们可以为学生对象绑定name和age两个属性</span>
+<span class="line">    def __init__(self, name, age):</span>
+<span class="line">        self.name = name</span>
+<span class="line">        self.age = age</span>
+<span class="line"></span>
+<span class="line">    def study(self, course_name):</span>
+<span class="line">        print(&#39;%s正在学习%s.&#39; % (self.name, course_name))</span>
+<span class="line"></span>
+<span class="line">    # PEP 8要求标识符的名字用全小写多个单词用下划线连接</span>
+<span class="line">    # 但是部分程序员和公司更倾向于使用驼峰命名法(驼峰标识)</span>
+<span class="line">    def watch_movie(self):</span>
+<span class="line">        if self.age &lt; 18:</span>
+<span class="line">            print(&#39;%s只能观看《熊出没》.&#39; % self.name)</span>
+<span class="line">        else:</span>
+<span class="line">            print(&#39;%s正在观看岛国爱情大电影.&#39; % self.name)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><strong>说明：</strong> 写在类中的函数，我们通常称之为（对象的）方法，这些方法就是对象可以接收的消息。</p></blockquote><h3 id="创建和使用对象" tabindex="-1"><a class="header-anchor" href="#创建和使用对象"><span>创建和使用对象</span></a></h3><p>当我们定义好一个类之后，可以通过下面的方式来创建对象并给对象发消息。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">def main():</span>
+<span class="line">    # 创建学生对象并指定姓名和年龄</span>
+<span class="line">    stu1 = Student(&#39;骆昊&#39;, 38)</span>
+<span class="line">    # 给对象发study消息</span>
+<span class="line">    stu1.study(&#39;Python程序设计&#39;)</span>
+<span class="line">    # 给对象发watch_av消息</span>
+<span class="line">    stu1.watch_movie()</span>
+<span class="line">    stu2 = Student(&#39;王大锤&#39;, 15)</span>
+<span class="line">    stu2.study(&#39;思想品德&#39;)</span>
+<span class="line">    stu2.watch_movie()</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="访问可见性问题" tabindex="-1"><a class="header-anchor" href="#访问可见性问题"><span>访问可见性问题</span></a></h3><p>对于上面的代码，有C++、Java、C#等编程经验的程序员可能会问，我们给<code>Student</code>对象绑定的<code>name</code>和<code>age</code>属性到底具有怎样的访问权限（也称为可见性）。因为在很多面向对象编程语言中，我们通常会将对象的属性设置为私有的（private）或受保护的（protected），简单的说就是不允许外界访问，而对象的方法通常都是公开的（public），因为公开的方法就是对象能够接受的消息。在Python中，属性和方法的访问权限只有两种，也就是公开的和私有的，如果希望属性是私有的，在给属性命名时可以用两个下划线作为开头，下面的代码可以验证这一点。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">class Test:</span>
+<span class="line"></span>
+<span class="line">    def __init__(self, foo):</span>
+<span class="line">        self.__foo = foo</span>
+<span class="line"></span>
+<span class="line">    def __bar(self):</span>
+<span class="line">        print(self.__foo)</span>
+<span class="line">        print(&#39;__bar&#39;)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    test = Test(&#39;hello&#39;)</span>
+<span class="line">    # AttributeError: &#39;Test&#39; object has no attribute &#39;__bar&#39;</span>
+<span class="line">    test.__bar()</span>
+<span class="line">    # AttributeError: &#39;Test&#39; object has no attribute &#39;__foo&#39;</span>
+<span class="line">    print(test.__foo)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &quot;__main__&quot;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>但是，Python并没有从语法上严格保证私有属性或方法的私密性，它只是给私有的属性和方法换了一个名字来妨碍对它们的访问，事实上如果你知道更换名字的规则仍然可以访问到它们，下面的代码就可以验证这一点。之所以这样设定，可以用这样一句名言加以解释，就是&quot;<strong>We are all consenting adults here</strong>&quot;。因为绝大多数程序员都认为开放比封闭要好，而且程序员要自己为自己的行为负责。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">class Test:</span>
+<span class="line"></span>
+<span class="line">    def __init__(self, foo):</span>
+<span class="line">        self.__foo = foo</span>
+<span class="line"></span>
+<span class="line">    def __bar(self):</span>
+<span class="line">        print(self.__foo)</span>
+<span class="line">        print(&#39;__bar&#39;)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    test = Test(&#39;hello&#39;)</span>
+<span class="line">    test._Test__bar()</span>
+<span class="line">    print(test._Test__foo)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &quot;__main__&quot;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在实际开发中，我们并不建议将属性设置为私有的，因为这会导致子类无法访问（后面会讲到）。所以大多数Python程序员会遵循一种命名惯例就是让属性名以单下划线开头来表示属性是受保护的，本类之外的代码在访问这样的属性时应该要保持慎重。这种做法并不是语法上的规则，单下划线开头的属性和方法外界仍然是可以访问的，所以更多的时候它是一种暗示或隐喻，关于这一点可以看看我的<a href="http://blog.csdn.net/jackfrued/article/details/79521404" target="_blank" rel="noopener noreferrer">《Python - 那些年我们踩过的那些坑》</a>文章中的讲解。</p><h3 id="面向对象的支柱" tabindex="-1"><a class="header-anchor" href="#面向对象的支柱"><span>面向对象的支柱</span></a></h3><p>面向对象有三大支柱：封装、继承和多态。后面两个概念在下一个章节中进行详细的说明，这里我们先说一下什么是封装。我自己对封装的理解是&quot;隐藏一切可以隐藏的实现细节，只向外界暴露（提供）简单的编程接口&quot;。我们在类中定义的方法其实就是把数据和对数据的操作封装起来了，在我们创建了对象之后，只需要给对象发送一个消息（调用方法）就可以执行方法中的代码，也就是说我们只需要知道方法的名字和传入的参数（方法的外部视图），而不需要知道方法内部的实现细节（方法的内部视图）。</p><h3 id="练习" tabindex="-1"><a class="header-anchor" href="#练习"><span>练习</span></a></h3><h4 id="练习1-定义一个类描述数字时钟。" tabindex="-1"><a class="header-anchor" href="#练习1-定义一个类描述数字时钟。"><span>练习1：定义一个类描述数字时钟。</span></a></h4><p>参考答案：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from time import sleep</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class Clock(object):</span>
+<span class="line">    &quot;&quot;&quot;数字时钟&quot;&quot;&quot;</span>
+<span class="line"></span>
+<span class="line">    def __init__(self, hour=0, minute=0, second=0):</span>
+<span class="line">        &quot;&quot;&quot;初始化方法</span>
+<span class="line"></span>
+<span class="line">        :param hour: 时</span>
+<span class="line">        :param minute: 分</span>
+<span class="line">        :param second: 秒</span>
+<span class="line">        &quot;&quot;&quot;</span>
+<span class="line">        self._hour = hour</span>
+<span class="line">        self._minute = minute</span>
+<span class="line">        self._second = second</span>
+<span class="line"></span>
+<span class="line">    def run(self):</span>
+<span class="line">        &quot;&quot;&quot;走字&quot;&quot;&quot;</span>
+<span class="line">        self._second += 1</span>
+<span class="line">        if self._second == 60:</span>
+<span class="line">            self._second = 0</span>
+<span class="line">            self._minute += 1</span>
+<span class="line">            if self._minute == 60:</span>
+<span class="line">                self._minute = 0</span>
+<span class="line">                self._hour += 1</span>
+<span class="line">                if self._hour == 24:</span>
+<span class="line">                    self._hour = 0</span>
+<span class="line"></span>
+<span class="line">    def show(self):</span>
+<span class="line">        &quot;&quot;&quot;显示时间&quot;&quot;&quot;</span>
+<span class="line">        return &#39;%02d:%02d:%02d&#39; % \</span>
+<span class="line">               (self._hour, self._minute, self._second)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    clock = Clock(23, 59, 58)</span>
+<span class="line">    while True:</span>
+<span class="line">        print(clock.show())</span>
+<span class="line">        sleep(1)</span>
+<span class="line">        clock.run()</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="练习2-定义一个类描述平面上的点并提供移动点和计算到另一个点距离的方法。" tabindex="-1"><a class="header-anchor" href="#练习2-定义一个类描述平面上的点并提供移动点和计算到另一个点距离的方法。"><span>练习2：定义一个类描述平面上的点并提供移动点和计算到另一个点距离的方法。</span></a></h4><p>参考答案：</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from math import sqrt</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class Point(object):</span>
+<span class="line"></span>
+<span class="line">    def __init__(self, x=0, y=0):</span>
+<span class="line">        &quot;&quot;&quot;初始化方法</span>
+<span class="line">        </span>
+<span class="line">        :param x: 横坐标</span>
+<span class="line">        :param y: 纵坐标</span>
+<span class="line">        &quot;&quot;&quot;</span>
+<span class="line">        self.x = x</span>
+<span class="line">        self.y = y</span>
+<span class="line"></span>
+<span class="line">    def move_to(self, x, y):</span>
+<span class="line">        &quot;&quot;&quot;移动到指定位置</span>
+<span class="line">        </span>
+<span class="line">        :param x: 新的横坐标</span>
+<span class="line">        &quot;param y: 新的纵坐标</span>
+<span class="line">        &quot;&quot;&quot;</span>
+<span class="line">        self.x = x</span>
+<span class="line">        self.y = y</span>
+<span class="line"></span>
+<span class="line">    def move_by(self, dx, dy):</span>
+<span class="line">        &quot;&quot;&quot;移动指定的增量</span>
+<span class="line">        </span>
+<span class="line">        :param dx: 横坐标的增量</span>
+<span class="line">        &quot;param dy: 纵坐标的增量</span>
+<span class="line">        &quot;&quot;&quot;</span>
+<span class="line">        self.x += dx</span>
+<span class="line">        self.y += dy</span>
+<span class="line"></span>
+<span class="line">    def distance_to(self, other):</span>
+<span class="line">        &quot;&quot;&quot;计算与另一个点的距离</span>
+<span class="line">        </span>
+<span class="line">        :param other: 另一个点</span>
+<span class="line">        &quot;&quot;&quot;</span>
+<span class="line">        dx = self.x - other.x</span>
+<span class="line">        dy = self.y - other.y</span>
+<span class="line">        return sqrt(dx ** 2 + dy ** 2)</span>
+<span class="line"></span>
+<span class="line">    def __str__(self):</span>
+<span class="line">        return &#39;(%s, %s)&#39; % (str(self.x), str(self.y))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    p1 = Point(3, 5)</span>
+<span class="line">    p2 = Point()</span>
+<span class="line">    print(p1)</span>
+<span class="line">    print(p2)</span>
+<span class="line">    p2.move_by(-1, 2)</span>
+<span class="line">    print(p2)</span>
+<span class="line">    print(p1.distance_to(p2))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><strong>说明：</strong> 本章中的插图来自于Grady Booch等著作的<a href="https://item.jd.com/20476561918.html" target="_blank" rel="noopener noreferrer">《面向对象分析与设计》</a>一书，该书是讲解面向对象编程的经典著作，有兴趣的读者可以购买和阅读这本书来了解更多的面向对象的相关知识。</p></blockquote></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-D-bq_jAa.js" defer></script>
+  </body>
+</html>

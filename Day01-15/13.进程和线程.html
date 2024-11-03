@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title></title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-PoWje89h.css" as="style"><link rel="stylesheet" href="/assets/style-PoWje89h.css">
+    <link rel="modulepreload" href="/assets/app-D-bq_jAa.js"><link rel="modulepreload" href="/assets/13.进程和线程.html-cUulhaPG.js">
+    <link rel="prefetch" href="/assets/index.html-gliNvsHQ.js" as="script"><link rel="prefetch" href="/assets/01.初识Python.html-BwFdoIKy.js" as="script"><link rel="prefetch" href="/assets/02.语言元素.html-CYMl2Yed.js" as="script"><link rel="prefetch" href="/assets/03.分支结构.html-BSYx_tCp.js" as="script"><link rel="prefetch" href="/assets/04.循环结构.html-BJZpY12e.js" as="script"><link rel="prefetch" href="/assets/05.构造程序逻辑.html-BQzZubpL.js" as="script"><link rel="prefetch" href="/assets/06.函数和模块的使用.html-D2HnWKET.js" as="script"><link rel="prefetch" href="/assets/07.字符串和常用数据结构.html-CKl8znKO.js" as="script"><link rel="prefetch" href="/assets/08.面向对象编程基础.html-D_lfcD_q.js" as="script"><link rel="prefetch" href="/assets/09.面向对象进阶.html-2lzuIX0a.js" as="script"><link rel="prefetch" href="/assets/10.图形用户界面和游戏开发.html-By17OOos.js" as="script"><link rel="prefetch" href="/assets/11.文件和异常.html-CgLQgdd8.js" as="script"><link rel="prefetch" href="/assets/12.字符串和正则表达式.html-BPI-RzQV.js" as="script"><link rel="prefetch" href="/assets/14.网络编程入门和网络应用开发.html-BtJ52ysb.js" as="script"><link rel="prefetch" href="/assets/15.图像和办公文档处理.html-CmKSYg3w.js" as="script"><link rel="prefetch" href="/assets/21-30.Web前端概述.html-BQnr2GML.js" as="script"><link rel="prefetch" href="/assets/16-20.Python语言进阶.html-B6OMzyDF.js" as="script"><link rel="prefetch" href="/assets/31-35.玩转Linux操作系统.html-ZmKmt6al.js" as="script"><link rel="prefetch" href="/assets/46.Django快速上手.html-ClDn9mK8.js" as="script"><link rel="prefetch" href="/assets/47.深入模型.html-BeXTv4Gh.js" as="script"><link rel="prefetch" href="/assets/48.静态资源和Ajax请求.html-CBsfW0m5.js" as="script"><link rel="prefetch" href="/assets/49.Cookie和Session.html-OKxZdF5r.js" as="script"><link rel="prefetch" href="/assets/50.制作报表.html-CHohPMoE.js" as="script"><link rel="prefetch" href="/assets/51.日志和调试工具栏.html-IHfUTr24.js" as="script"><link rel="prefetch" href="/assets/52.中间件的应用.html-EITG4bC6.js" as="script"><link rel="prefetch" href="/assets/53.前后端分离开发入门.html-CSfpFnpc.js" as="script"><link rel="prefetch" href="/assets/54.RESTful架构和DRF入门.html-unYp2iVf.js" as="script"><link rel="prefetch" href="/assets/55.RESTful架构和DRF进阶.html-Bimn41qo.js" as="script"><link rel="prefetch" href="/assets/56.使用缓存.html-DygStMaf.js" as="script"><link rel="prefetch" href="/assets/57.接入三方平台.html-BOYDJBOY.js" as="script"><link rel="prefetch" href="/assets/58.异步任务和定时任务.html-Df3PFO5Q.js" as="script"><link rel="prefetch" href="/assets/59.单元测试.html-DsPevIDF.js" as="script"><link rel="prefetch" href="/assets/60.项目上线.html-DMRv6p1t.js" as="script"><link rel="prefetch" href="/assets/36.关系型数据库和MySQL概述.html-BxE9DXEh.js" as="script"><link rel="prefetch" href="/assets/37.SQL详解之DDL.html-Bgp1k0eR.js" as="script"><link rel="prefetch" href="/assets/38.SQL详解之DML.html-uimrZls-.js" as="script"><link rel="prefetch" href="/assets/39.SQL详解之DQL.html-Ddo7fJHv.js" as="script"><link rel="prefetch" href="/assets/40.SQL详解之DCL.html-CE0er4AB.js" as="script"><link rel="prefetch" href="/assets/41.MySQL新特性.html-Be23vhPq.js" as="script"><link rel="prefetch" href="/assets/42.视图、函数和过程.html-JJRxgqze.js" as="script"><link rel="prefetch" href="/assets/43.索引.html-DCuE2oxz.js" as="script"><link rel="prefetch" href="/assets/44.Python接入MySQL数据库.html-CDHCppw7.js" as="script"><link rel="prefetch" href="/assets/45.大数据平台和HiveSQL.html-BoScJKu1.js" as="script"><link rel="prefetch" href="/assets/66.数据分析概述.html-BnwcA8AB.js" as="script"><link rel="prefetch" href="/assets/67.环境准备.html-DHxqV8P9.js" as="script"><link rel="prefetch" href="/assets/68.NumPy的应用-1.html-B3M5Stew.js" as="script"><link rel="prefetch" href="/assets/69.NumPy的应用-2.html-DINfPSOD.js" as="script"><link rel="prefetch" href="/assets/70.NumPy的应用-3.html-Cq0BS2Tg.js" as="script"><link rel="prefetch" href="/assets/71.NumPy的应用-4.html-BONDNBne.js" as="script"><link rel="prefetch" href="/assets/72.深入浅出pandas-1.html-mfHBd5ix.js" as="script"><link rel="prefetch" href="/assets/73.深入浅出pandas-2.html-BzB_BqJB.js" as="script"><link rel="prefetch" href="/assets/74.深入浅出pandas-3.html-CsRWNuji.js" as="script"><link rel="prefetch" href="/assets/75.深入浅出pandas-4.html-BvqbzoEe.js" as="script"><link rel="prefetch" href="/assets/76.深入浅出pandas-5.html-ukdSbkgj.js" as="script"><link rel="prefetch" href="/assets/77.深入浅出pandas-6.html-Cb21IcVJ.js" as="script"><link rel="prefetch" href="/assets/78.数据可视化-1.html-B7sXt-G5.js" as="script"><link rel="prefetch" href="/assets/79.数据可视化-2.html-Bv_oTn1i.js" as="script"><link rel="prefetch" href="/assets/80.数据可视化-3.html-BLZsn4HV.js" as="script"><link rel="prefetch" href="/assets/61.网络数据采集概述.html-CjR5vzG3.js" as="script"><link rel="prefetch" href="/assets/62.用Python获取网络资源-1.html-BKM7qrLE.js" as="script"><link rel="prefetch" href="/assets/62.用Python解析HTML页面-2.html-Dtcd-kct.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-1.html-BekWYpsa.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-2.html-CVXcHBzj.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-3.html-BlfLRjkc.js" as="script"><link rel="prefetch" href="/assets/63.并发编程在爬虫中的应用.html-ti0e-1h5.js" as="script"><link rel="prefetch" href="/assets/64.使用Selenium抓取网页动态内容.html-BLFVKpq_.js" as="script"><link rel="prefetch" href="/assets/65.爬虫框架Scrapy简介.html-W8heCdhA.js" as="script"><link rel="prefetch" href="/assets/81.人工智能和机器学习概述.html-Ca7AYT__.js" as="script"><link rel="prefetch" href="/assets/82.k最近邻算法.html-CGQnIPO4.js" as="script"><link rel="prefetch" href="/assets/83.决策树.html-BwWQjZ__.js" as="script"><link rel="prefetch" href="/assets/84.聚类算法.html-BnETr6ij.js" as="script"><link rel="prefetch" href="/assets/85.朴素贝叶斯算法.html-Rct6EKZw.js" as="script"><link rel="prefetch" href="/assets/86.支持向量机.html-yAGpiCbO.js" as="script"><link rel="prefetch" href="/assets/87.回归分析.html-BO-2cKfh.js" as="script"><link rel="prefetch" href="/assets/88.深度学习入门.html-BOSrbht3.js" as="script"><link rel="prefetch" href="/assets/89.PyTorch概述.html-BXDTY1W0.js" as="script"><link rel="prefetch" href="/assets/90.PyTorch实战.html-DWYNWcjH.js" as="script"><link rel="prefetch" href="/assets/100.Python面试题实录.html-C5EnR3Ed.js" as="script"><link rel="prefetch" href="/assets/91.团队项目开发的问题和解决方案.html-CECcJy8n.js" as="script"><link rel="prefetch" href="/assets/92.Docker容器技术详解.html-DGacXk8p.js" as="script"><link rel="prefetch" href="/assets/93.MySQL性能优化.html-BChvKIt4.js" as="script"><link rel="prefetch" href="/assets/94.网络API接口设计.html-ChQlRSGo.js" as="script"><link rel="prefetch" href="/assets/95.使用Django开发商业项目.html-DECQMK9m.js" as="script"><link rel="prefetch" href="/assets/96.软件测试和自动化测试.html-D3r3us4u.js" as="script"><link rel="prefetch" href="/assets/97.电商网站技术要点剖析.html-hB1D5G1G.js" as="script"><link rel="prefetch" href="/assets/98.项目部署上线和性能调优.html-CT3LhWhJ.js" as="script"><link rel="prefetch" href="/assets/99.面试中的公共问题.html-DMTzlILS.js" as="script"><link rel="prefetch" href="/assets/PEP8风格指南.html-DN3Ws3cc.js" as="script"><link rel="prefetch" href="/assets/Python之禅的最佳翻译.html-TKNJu8cq.js" as="script"><link rel="prefetch" href="/assets/Python参考书籍.html-CO-ccpF4.js" as="script"><link rel="prefetch" href="/assets/Python容器使用小技巧.html-DZR49nel.js" as="script"><link rel="prefetch" href="/assets/Python数据分析师面试题.html-YtNemgMP.js" as="script"><link rel="prefetch" href="/assets/Python编程惯例.html-CvmEKn9m.js" as="script"><link rel="prefetch" href="/assets/一个小例子助你彻底理解协程.html-Cq1CFFHT.js" as="script"><link rel="prefetch" href="/assets/使用Hexo搭建自己的博客.html-CXPev5HK.js" as="script"><link rel="prefetch" href="/assets/常见反爬策略及应对方案.html-DCecg34L.js" as="script"><link rel="prefetch" href="/assets/我为什么选择了Python.html-BuUPym1o.js" as="script"><link rel="prefetch" href="/assets/接口文档参考示例.html-GRoBovI1.js" as="script"><link rel="prefetch" href="/assets/玩转PyCharm.html--XkJxH2_.js" as="script"><link rel="prefetch" href="/assets/用函数还是用复杂的表达式.html-2n5kS7oc.js" as="script"><link rel="prefetch" href="/assets/知乎问题回答.html-CkWOFmLg.js" as="script"><link rel="prefetch" href="/assets/英语面试.html-CZGJtC3Y.js" as="script"><link rel="prefetch" href="/assets/那些年我们踩过的那些坑.html-C1BI6oD2.js" as="script"><link rel="prefetch" href="/assets/年薪50W_的Python程序员如何写代码.html-C49SuvhI.js" as="script"><link rel="prefetch" href="/assets/好玩的Python.html-CpBhFJ_2.js" as="script"><link rel="prefetch" href="/assets/算法入门系列1-周而复始.html-32WRx0Tf.js" as="script"><link rel="prefetch" href="/assets/算法入门系列2 - 在水一方.html-ChrbgX52.js" as="script"><link rel="prefetch" href="/assets/404.html-8giqv0M_.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-CexIHObO.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><!----><!----></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading"> <!----></p><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content" vp-content><!--[--><!--]--><div><h2 id="进程和线程" tabindex="-1"><a class="header-anchor" href="#进程和线程"><span>进程和线程</span></a></h2><p>今天我们使用的计算机早已进入多CPU或多核时代，而我们使用的操作系统都是支持“多任务”的操作系统，这使得我们可以同时运行多个程序，也可以将一个程序分解为若干个相对独立的子任务，让多个子任务并发的执行，从而缩短程序的执行时间，同时也让用户获得更好的体验。因此在当下不管是用什么编程语言进行开发，实现让程序同时执行多个任务也就是常说的“并发编程”，应该是程序员必备技能之一。为此，我们需要先讨论两个概念，一个叫进程，一个叫线程。</p><h3 id="概念" tabindex="-1"><a class="header-anchor" href="#概念"><span>概念</span></a></h3><p>进程就是操作系统中执行的一个程序，操作系统以进程为单位分配存储空间，每个进程都有自己的地址空间、数据栈以及其他用于跟踪进程执行的辅助数据，操作系统管理所有进程的执行，为它们合理的分配资源。进程可以通过fork或spawn的方式来创建新的进程来执行其他的任务，不过新的进程也有自己独立的内存空间，因此必须通过进程间通信机制（IPC，Inter-Process Communication）来实现数据共享，具体的方式包括管道、信号、套接字、共享内存区等。</p><p>一个进程还可以拥有多个并发的执行线索，简单的说就是拥有多个可以获得CPU调度的执行单元，这就是所谓的线程。由于线程在同一个进程下，它们可以共享相同的上下文，因此相对于进程而言，线程间的信息共享和通信更加容易。当然在单核CPU系统中，真正的并发是不可能的，因为在某个时刻能够获得CPU的只有唯一的一个线程，多个线程共享了CPU的执行时间。使用多线程实现并发编程为程序带来的好处是不言而喻的，最主要的体现在提升程序的性能和改善用户体验，今天我们使用的软件几乎都用到了多线程技术，这一点可以利用系统自带的进程监控工具（如macOS中的“活动监视器”、Windows中的“任务管理器”）来证实，如下图所示。</p><p><img src="/assets/macos-monitor-8DaKH2HS.png" alt=""></p><p>当然多线程也并不是没有坏处，站在其他进程的角度，多线程的程序对其他程序并不友好，因为它占用了更多的CPU执行时间，导致其他程序无法获得足够的CPU执行时间；另一方面，站在开发者的角度，编写和调试多线程的程序都对开发者有较高的要求，对于初学者来说更加困难。</p><p>Python既支持多进程又支持多线程，因此使用Python实现并发编程主要有3种方式：多进程、多线程、多进程+多线程。</p><h3 id="python中的多进程" tabindex="-1"><a class="header-anchor" href="#python中的多进程"><span>Python中的多进程</span></a></h3><p>Unix和Linux操作系统上提供了<code>fork()</code>系统调用来创建进程，调用<code>fork()</code>函数的是父进程，创建出的是子进程，子进程是父进程的一个拷贝，但是子进程拥有自己的PID。<code>fork()</code>函数非常特殊它会返回两次，父进程中可以通过<code>fork()</code>函数的返回值得到子进程的PID，而子进程中的返回值永远都是0。Python的os模块提供了<code>fork()</code>函数。由于Windows系统没有<code>fork()</code>调用，因此要实现跨平台的多进程编程，可以使用multiprocessing模块的<code>Process</code>类来创建子进程，而且该模块还提供了更高级的封装，例如批量启动进程的进程池（<code>Pool</code>）、用于进程间通信的队列（<code>Queue</code>）和管道（<code>Pipe</code>）等。</p><p>下面用一个下载文件的例子来说明使用多进程和不使用多进程到底有什么差别，先看看下面的代码。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from random import randint</span>
+<span class="line">from time import time, sleep</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def download_task(filename):</span>
+<span class="line">    print(&#39;开始下载%s...&#39; % filename)</span>
+<span class="line">    time_to_download = randint(5, 10)</span>
+<span class="line">    sleep(time_to_download)</span>
+<span class="line">    print(&#39;%s下载完成! 耗费了%d秒&#39; % (filename, time_to_download))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    start = time()</span>
+<span class="line">    download_task(&#39;Python从入门到住院.pdf&#39;)</span>
+<span class="line">    download_task(&#39;Peking Hot.avi&#39;)</span>
+<span class="line">    end = time()</span>
+<span class="line">    print(&#39;总共耗费了%.2f秒.&#39; % (end - start))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>下面是运行程序得到的一次运行结果。</p><div class="language-Shell line-numbers-mode" data-highlighter="prismjs" data-ext="Shell" data-title="Shell"><pre><code><span class="line">开始下载Python从入门到住院.pdf...</span>
+<span class="line">Python从入门到住院.pdf下载完成! 耗费了6秒</span>
+<span class="line">开始下载Peking Hot.avi...</span>
+<span class="line">Peking Hot.avi下载完成! 耗费了7秒</span>
+<span class="line">总共耗费了13.01秒.</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>从上面的例子可以看出，如果程序中的代码只能按顺序一点点的往下执行，那么即使执行两个毫不相关的下载任务，也需要先等待一个文件下载完成后才能开始下一个下载任务，很显然这并不合理也没有效率。接下来我们使用多进程的方式将两个下载任务放到不同的进程中，代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from multiprocessing import Process</span>
+<span class="line">from os import getpid</span>
+<span class="line">from random import randint</span>
+<span class="line">from time import time, sleep</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def download_task(filename):</span>
+<span class="line">    print(&#39;启动下载进程，进程号[%d].&#39; % getpid())</span>
+<span class="line">    print(&#39;开始下载%s...&#39; % filename)</span>
+<span class="line">    time_to_download = randint(5, 10)</span>
+<span class="line">    sleep(time_to_download)</span>
+<span class="line">    print(&#39;%s下载完成! 耗费了%d秒&#39; % (filename, time_to_download))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    start = time()</span>
+<span class="line">    p1 = Process(target=download_task, args=(&#39;Python从入门到住院.pdf&#39;, ))</span>
+<span class="line">    p1.start()</span>
+<span class="line">    p2 = Process(target=download_task, args=(&#39;Peking Hot.avi&#39;, ))</span>
+<span class="line">    p2.start()</span>
+<span class="line">    p1.join()</span>
+<span class="line">    p2.join()</span>
+<span class="line">    end = time()</span>
+<span class="line">    print(&#39;总共耗费了%.2f秒.&#39; % (end - start))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在上面的代码中，我们通过<code>Process</code>类创建了进程对象，通过<code>target</code>参数我们传入一个函数来表示进程启动后要执行的代码，后面的<code>args</code>是一个元组，它代表了传递给函数的参数。<code>Process</code>对象的<code>start</code>方法用来启动进程，而<code>join</code>方法表示等待进程执行结束。运行上面的代码可以明显发现两个下载任务“同时”启动了，而且程序的执行时间将大大缩短，不再是两个任务的时间总和。下面是程序的一次执行结果。</p><div class="language-Shell line-numbers-mode" data-highlighter="prismjs" data-ext="Shell" data-title="Shell"><pre><code><span class="line">启动下载进程，进程号[1530].</span>
+<span class="line">开始下载Python从入门到住院.pdf...</span>
+<span class="line">启动下载进程，进程号[1531].</span>
+<span class="line">开始下载Peking Hot.avi...</span>
+<span class="line">Peking Hot.avi下载完成! 耗费了7秒</span>
+<span class="line">Python从入门到住院.pdf下载完成! 耗费了10秒</span>
+<span class="line">总共耗费了10.01秒.</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>我们也可以使用subprocess模块中的类和函数来创建和启动子进程，然后通过管道来和子进程通信，这些内容我们不在此进行讲解，有兴趣的读者可以自己了解这些知识。接下来我们将重点放在如何实现两个进程间的通信。我们启动两个进程，一个输出Ping，一个输出Pong，两个进程输出的Ping和Pong加起来一共10个。听起来很简单吧，但是如果这样写可是错的哦。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from multiprocessing import Process</span>
+<span class="line">from time import sleep</span>
+<span class="line"></span>
+<span class="line">counter = 0</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def sub_task(string):</span>
+<span class="line">    global counter</span>
+<span class="line">    while counter &lt; 10:</span>
+<span class="line">        print(string, end=&#39;&#39;, flush=True)</span>
+<span class="line">        counter += 1</span>
+<span class="line">        sleep(0.01)</span>
+<span class="line"></span>
+<span class="line">        </span>
+<span class="line">def main():</span>
+<span class="line">    Process(target=sub_task, args=(&#39;Ping&#39;, )).start()</span>
+<span class="line">    Process(target=sub_task, args=(&#39;Pong&#39;, )).start()</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>看起来没毛病，但是最后的结果是Ping和Pong各输出了10个，Why？当我们在程序中创建进程的时候，子进程复制了父进程及其所有的数据结构，每个子进程有自己独立的内存空间，这也就意味着两个子进程中各有一个<code>counter</code>变量，所以结果也就可想而知了。要解决这个问题比较简单的办法是使用multiprocessing模块中的<code>Queue</code>类，它是可以被多个进程共享的队列，底层是通过管道和<a href="">信号量（semaphore）</a>机制来实现的，有兴趣的读者可以自己尝试一下。</p><h3 id="python中的多线程" tabindex="-1"><a class="header-anchor" href="#python中的多线程"><span>Python中的多线程</span></a></h3><p>在Python早期的版本中就引入了thread模块（现在名为_thread）来实现多线程编程，然而该模块过于底层，而且很多功能都没有提供，因此目前的多线程开发我们推荐使用threading模块，该模块对多线程编程提供了更好的面向对象的封装。我们把刚才下载文件的例子用多线程的方式来实现一遍。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from random import randint</span>
+<span class="line">from threading import Thread</span>
+<span class="line">from time import time, sleep</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def download(filename):</span>
+<span class="line">    print(&#39;开始下载%s...&#39; % filename)</span>
+<span class="line">    time_to_download = randint(5, 10)</span>
+<span class="line">    sleep(time_to_download)</span>
+<span class="line">    print(&#39;%s下载完成! 耗费了%d秒&#39; % (filename, time_to_download))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    start = time()</span>
+<span class="line">    t1 = Thread(target=download, args=(&#39;Python从入门到住院.pdf&#39;,))</span>
+<span class="line">    t1.start()</span>
+<span class="line">    t2 = Thread(target=download, args=(&#39;Peking Hot.avi&#39;,))</span>
+<span class="line">    t2.start()</span>
+<span class="line">    t1.join()</span>
+<span class="line">    t2.join()</span>
+<span class="line">    end = time()</span>
+<span class="line">    print(&#39;总共耗费了%.3f秒&#39; % (end - start))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>我们可以直接使用threading模块的<code>Thread</code>类来创建线程，但是我们之前讲过一个非常重要的概念叫“继承”，我们可以从已有的类创建新类，因此也可以通过继承<code>Thread</code>类的方式来创建自定义的线程类，然后再创建线程对象并启动线程。代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from random import randint</span>
+<span class="line">from threading import Thread</span>
+<span class="line">from time import time, sleep</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class DownloadTask(Thread):</span>
+<span class="line"></span>
+<span class="line">    def __init__(self, filename):</span>
+<span class="line">        super().__init__()</span>
+<span class="line">        self._filename = filename</span>
+<span class="line"></span>
+<span class="line">    def run(self):</span>
+<span class="line">        print(&#39;开始下载%s...&#39; % self._filename)</span>
+<span class="line">        time_to_download = randint(5, 10)</span>
+<span class="line">        sleep(time_to_download)</span>
+<span class="line">        print(&#39;%s下载完成! 耗费了%d秒&#39; % (self._filename, time_to_download))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    start = time()</span>
+<span class="line">    t1 = DownloadTask(&#39;Python从入门到住院.pdf&#39;)</span>
+<span class="line">    t1.start()</span>
+<span class="line">    t2 = DownloadTask(&#39;Peking Hot.avi&#39;)</span>
+<span class="line">    t2.start()</span>
+<span class="line">    t1.join()</span>
+<span class="line">    t2.join()</span>
+<span class="line">    end = time()</span>
+<span class="line">    print(&#39;总共耗费了%.2f秒.&#39; % (end - start))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>因为多个线程可以共享进程的内存空间，因此要实现多个线程间的通信相对简单，大家能想到的最直接的办法就是设置一个全局变量，多个线程共享这个全局变量即可。但是当多个线程共享同一个变量（我们通常称之为“资源”）的时候，很有可能产生不可控的结果从而导致程序失效甚至崩溃。如果一个资源被多个线程竞争使用，那么我们通常称之为“临界资源”，对“临界资源”的访问需要加上保护，否则资源会处于“混乱”的状态。下面的例子演示了100个线程向同一个银行账户转账（转入1元钱）的场景，在这个例子中，银行账户就是一个临界资源，在没有保护的情况下我们很有可能会得到错误的结果。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from time import sleep</span>
+<span class="line">from threading import Thread</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class Account(object):</span>
+<span class="line"></span>
+<span class="line">    def __init__(self):</span>
+<span class="line">        self._balance = 0</span>
+<span class="line"></span>
+<span class="line">    def deposit(self, money):</span>
+<span class="line">        # 计算存款后的余额</span>
+<span class="line">        new_balance = self._balance + money</span>
+<span class="line">        # 模拟受理存款业务需要0.01秒的时间</span>
+<span class="line">        sleep(0.01)</span>
+<span class="line">        # 修改账户余额</span>
+<span class="line">        self._balance = new_balance</span>
+<span class="line"></span>
+<span class="line">    @property</span>
+<span class="line">    def balance(self):</span>
+<span class="line">        return self._balance</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class AddMoneyThread(Thread):</span>
+<span class="line"></span>
+<span class="line">    def __init__(self, account, money):</span>
+<span class="line">        super().__init__()</span>
+<span class="line">        self._account = account</span>
+<span class="line">        self._money = money</span>
+<span class="line"></span>
+<span class="line">    def run(self):</span>
+<span class="line">        self._account.deposit(self._money)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    account = Account()</span>
+<span class="line">    threads = []</span>
+<span class="line">    # 创建100个存款的线程向同一个账户中存钱</span>
+<span class="line">    for _ in range(100):</span>
+<span class="line">        t = AddMoneyThread(account, 1)</span>
+<span class="line">        threads.append(t)</span>
+<span class="line">        t.start()</span>
+<span class="line">    # 等所有存款的线程都执行完毕</span>
+<span class="line">    for t in threads:</span>
+<span class="line">        t.join()</span>
+<span class="line">    print(&#39;账户余额为: ￥%d元&#39; % account.balance)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>运行上面的程序，结果让人大跌眼镜，100个线程分别向账户中转入1元钱，结果居然远远小于100元。之所以出现这种情况是因为我们没有对银行账户这个“临界资源”加以保护，多个线程同时向账户中存钱时，会一起执行到<code>new_balance = self._balance + money</code>这行代码，多个线程得到的账户余额都是初始状态下的<code>0</code>，所以都是<code>0</code>上面做了+1的操作，因此得到了错误的结果。在这种情况下，“锁”就可以派上用场了。我们可以通过“锁”来保护“临界资源”，只有获得“锁”的线程才能访问“临界资源”，而其他没有得到“锁”的线程只能被阻塞起来，直到获得“锁”的线程释放了“锁”，其他线程才有机会获得“锁”，进而访问被保护的“临界资源”。下面的代码演示了如何使用“锁”来保护对银行账户的操作，从而获得正确的结果。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from time import sleep</span>
+<span class="line">from threading import Thread, Lock</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class Account(object):</span>
+<span class="line"></span>
+<span class="line">    def __init__(self):</span>
+<span class="line">        self._balance = 0</span>
+<span class="line">        self._lock = Lock()</span>
+<span class="line"></span>
+<span class="line">    def deposit(self, money):</span>
+<span class="line">        # 先获取锁才能执行后续的代码</span>
+<span class="line">        self._lock.acquire()</span>
+<span class="line">        try:</span>
+<span class="line">            new_balance = self._balance + money</span>
+<span class="line">            sleep(0.01)</span>
+<span class="line">            self._balance = new_balance</span>
+<span class="line">        finally:</span>
+<span class="line">            # 在finally中执行释放锁的操作保证正常异常锁都能释放</span>
+<span class="line">            self._lock.release()</span>
+<span class="line"></span>
+<span class="line">    @property</span>
+<span class="line">    def balance(self):</span>
+<span class="line">        return self._balance</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">class AddMoneyThread(Thread):</span>
+<span class="line"></span>
+<span class="line">    def __init__(self, account, money):</span>
+<span class="line">        super().__init__()</span>
+<span class="line">        self._account = account</span>
+<span class="line">        self._money = money</span>
+<span class="line"></span>
+<span class="line">    def run(self):</span>
+<span class="line">        self._account.deposit(self._money)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    account = Account()</span>
+<span class="line">    threads = []</span>
+<span class="line">    for _ in range(100):</span>
+<span class="line">        t = AddMoneyThread(account, 1)</span>
+<span class="line">        threads.append(t)</span>
+<span class="line">        t.start()</span>
+<span class="line">    for t in threads:</span>
+<span class="line">        t.join()</span>
+<span class="line">    print(&#39;账户余额为: ￥%d元&#39; % account.balance)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>比较遗憾的一件事情是Python的多线程并不能发挥CPU的多核特性，这一点只要启动几个执行死循环的线程就可以得到证实了。之所以如此，是因为Python的解释器有一个“全局解释器锁”（GIL）的东西，任何线程执行前必须先获得GIL锁，然后每执行100条字节码，解释器就自动释放GIL锁，让别的线程有机会执行，这是一个历史遗留问题，但是即便如此，就如我们之前举的例子，使用多线程在提升执行效率和改善用户体验方面仍然是有积极意义的。</p><h3 id="多进程还是多线程" tabindex="-1"><a class="header-anchor" href="#多进程还是多线程"><span>多进程还是多线程</span></a></h3><p>无论是多进程还是多线程，只要数量一多，效率肯定上不去，为什么呢？我们打个比方，假设你不幸正在准备中考，每天晚上需要做语文、数学、英语、物理、化学这5科的作业，每项作业耗时1小时。如果你先花1小时做语文作业，做完了，再花1小时做数学作业，这样，依次全部做完，一共花5小时，这种方式称为单任务模型。如果你打算切换到多任务模型，可以先做1分钟语文，再切换到数学作业，做1分钟，再切换到英语，以此类推，只要切换速度足够快，这种方式就和单核CPU执行多任务是一样的了，以旁观者的角度来看，你就正在同时写5科作业。</p><p>但是，切换作业是有代价的，比如从语文切到数学，要先收拾桌子上的语文书本、钢笔（这叫保存现场），然后，打开数学课本、找出圆规直尺（这叫准备新环境），才能开始做数学作业。操作系统在切换进程或者线程时也是一样的，它需要先保存当前执行的现场环境（CPU寄存器状态、内存页等），然后，把新任务的执行环境准备好（恢复上次的寄存器状态，切换内存页等），才能开始执行。这个切换过程虽然很快，但是也需要耗费时间。如果有几千个任务同时进行，操作系统可能就主要忙着切换任务，根本没有多少时间去执行任务了，这种情况最常见的就是硬盘狂响，点窗口无反应，系统处于假死状态。所以，多任务一旦多到一个限度，反而会使得系统性能急剧下降，最终导致所有任务都做不好。</p><p>是否采用多任务的第二个考虑是任务的类型，可以把任务分为计算密集型和I/O密集型。计算密集型任务的特点是要进行大量的计算，消耗CPU资源，比如对视频进行编码解码或者格式转换等等，这种任务全靠CPU的运算能力，虽然也可以用多任务完成，但是任务越多，花在任务切换的时间就越多，CPU执行任务的效率就越低。计算密集型任务由于主要消耗CPU资源，这类任务用Python这样的脚本语言去执行效率通常很低，最能胜任这类任务的是C语言，我们之前提到过Python中有嵌入C/C++代码的机制。</p><p>除了计算密集型任务，其他的涉及到网络、存储介质I/O的任务都可以视为I/O密集型任务，这类任务的特点是CPU消耗很少，任务的大部分时间都在等待I/O操作完成（因为I/O的速度远远低于CPU和内存的速度）。对于I/O密集型任务，如果启动多任务，就可以减少I/O等待时间从而让CPU高效率的运转。有一大类的任务都属于I/O密集型任务，这其中包括了我们很快会涉及到的网络应用和Web应用。</p><blockquote><p><strong>说明：</strong> 上面的内容和例子来自于<a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="noopener noreferrer">廖雪峰官方网站的《Python教程》</a>，因为对作者文中的某些观点持有不同的看法，对原文的文字描述做了适当的调整。</p></blockquote><h3 id="单线程-异步i-o" tabindex="-1"><a class="header-anchor" href="#单线程-异步i-o"><span>单线程+异步I/O</span></a></h3><p>现代操作系统对I/O操作的改进中最为重要的就是支持异步I/O。如果充分利用操作系统提供的异步I/O支持，就可以用单进程单线程模型来执行多任务，这种全新的模型称为事件驱动模型。Nginx就是支持异步I/O的Web服务器，它在单核CPU上采用单进程模型就可以高效地支持多任务。在多核CPU上，可以运行多个进程（数量与CPU核心数相同），充分利用多核CPU。用Node.js开发的服务器端程序也使用了这种工作模式，这也是当下并发编程的一种流行方案。</p><p>在Python语言中，单线程+异步I/O的编程模型称为协程，有了协程的支持，就可以基于事件驱动编写高效的多任务程序。协程最大的优势就是极高的执行效率，因为子程序切换不是线程切换，而是由程序自身控制，因此，没有线程切换的开销。协程的第二个优势就是不需要多线程的锁机制，因为只有一个线程，也不存在同时写变量冲突，在协程中控制共享资源不用加锁，只需要判断状态就好了，所以执行效率比多线程高很多。如果想要充分利用CPU的多核特性，最简单的方法是多进程+协程，既充分利用多核，又充分发挥协程的高效率，可获得极高的性能。关于这方面的内容，在后续的课程中会进行讲解。</p><h3 id="应用案例" tabindex="-1"><a class="header-anchor" href="#应用案例"><span>应用案例</span></a></h3><h4 id="例子1-将耗时间的任务放到线程中以获得更好的用户体验。" tabindex="-1"><a class="header-anchor" href="#例子1-将耗时间的任务放到线程中以获得更好的用户体验。"><span>例子1：将耗时间的任务放到线程中以获得更好的用户体验。</span></a></h4><p>如下所示的界面中，有“下载”和“关于”两个按钮，用休眠的方式模拟点击“下载”按钮会联网下载文件需要耗费10秒的时间，如果不使用“多线程”，我们会发现，当点击“下载”按钮后整个程序的其他部分都被这个耗时间的任务阻塞而无法执行了，这显然是非常糟糕的用户体验，代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">import time</span>
+<span class="line">import tkinter</span>
+<span class="line">import tkinter.messagebox</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def download():</span>
+<span class="line">    # 模拟下载任务需要花费10秒钟时间</span>
+<span class="line">    time.sleep(10)</span>
+<span class="line">    tkinter.messagebox.showinfo(&#39;提示&#39;, &#39;下载完成!&#39;)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def show_about():</span>
+<span class="line">    tkinter.messagebox.showinfo(&#39;关于&#39;, &#39;作者: 骆昊(v1.0)&#39;)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    top = tkinter.Tk()</span>
+<span class="line">    top.title(&#39;单线程&#39;)</span>
+<span class="line">    top.geometry(&#39;200x150&#39;)</span>
+<span class="line">    top.wm_attributes(&#39;-topmost&#39;, True)</span>
+<span class="line"></span>
+<span class="line">    panel = tkinter.Frame(top)</span>
+<span class="line">    button1 = tkinter.Button(panel, text=&#39;下载&#39;, command=download)</span>
+<span class="line">    button1.pack(side=&#39;left&#39;)</span>
+<span class="line">    button2 = tkinter.Button(panel, text=&#39;关于&#39;, command=show_about)</span>
+<span class="line">    button2.pack(side=&#39;right&#39;)</span>
+<span class="line">    panel.pack(side=&#39;bottom&#39;)</span>
+<span class="line"></span>
+<span class="line">    tkinter.mainloop()</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果使用多线程将耗时间的任务放到一个独立的线程中执行，这样就不会因为执行耗时间的任务而阻塞了主线程，修改后的代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">import time</span>
+<span class="line">import tkinter</span>
+<span class="line">import tkinter.messagebox</span>
+<span class="line">from threading import Thread</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line"></span>
+<span class="line">    class DownloadTaskHandler(Thread):</span>
+<span class="line"></span>
+<span class="line">        def run(self):</span>
+<span class="line">            time.sleep(10)</span>
+<span class="line">            tkinter.messagebox.showinfo(&#39;提示&#39;, &#39;下载完成!&#39;)</span>
+<span class="line">            # 启用下载按钮</span>
+<span class="line">            button1.config(state=tkinter.NORMAL)</span>
+<span class="line"></span>
+<span class="line">    def download():</span>
+<span class="line">        # 禁用下载按钮</span>
+<span class="line">        button1.config(state=tkinter.DISABLED)</span>
+<span class="line">        # 通过daemon参数将线程设置为守护线程(主程序退出就不再保留执行)</span>
+<span class="line">        # 在线程中处理耗时间的下载任务</span>
+<span class="line">        DownloadTaskHandler(daemon=True).start()</span>
+<span class="line"></span>
+<span class="line">    def show_about():</span>
+<span class="line">        tkinter.messagebox.showinfo(&#39;关于&#39;, &#39;作者: 骆昊(v1.0)&#39;)</span>
+<span class="line"></span>
+<span class="line">    top = tkinter.Tk()</span>
+<span class="line">    top.title(&#39;单线程&#39;)</span>
+<span class="line">    top.geometry(&#39;200x150&#39;)</span>
+<span class="line">    top.wm_attributes(&#39;-topmost&#39;, 1)</span>
+<span class="line"></span>
+<span class="line">    panel = tkinter.Frame(top)</span>
+<span class="line">    button1 = tkinter.Button(panel, text=&#39;下载&#39;, command=download)</span>
+<span class="line">    button1.pack(side=&#39;left&#39;)</span>
+<span class="line">    button2 = tkinter.Button(panel, text=&#39;关于&#39;, command=show_about)</span>
+<span class="line">    button2.pack(side=&#39;right&#39;)</span>
+<span class="line">    panel.pack(side=&#39;bottom&#39;)</span>
+<span class="line"></span>
+<span class="line">    tkinter.mainloop()</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="例子2-使用多进程对复杂任务进行-分而治之-。" tabindex="-1"><a class="header-anchor" href="#例子2-使用多进程对复杂任务进行-分而治之-。"><span>例子2：使用多进程对复杂任务进行“分而治之”。</span></a></h4><p>我们来完成1~100000000求和的计算密集型任务，这个问题本身非常简单，有点循环的知识就能解决，代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from time import time</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    total = 0</span>
+<span class="line">    number_list = [x for x in range(1, 100000001)]</span>
+<span class="line">    start = time()</span>
+<span class="line">    for number in number_list:</span>
+<span class="line">        total += number</span>
+<span class="line">    print(total)</span>
+<span class="line">    end = time()</span>
+<span class="line">    print(&#39;Execution time: %.3fs&#39; % (end - start))</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在上面的代码中，我故意先去创建了一个列表容器然后填入了100000000个数，这一步其实是比较耗时间的，所以为了公平起见，当我们将这个任务分解到8个进程中去执行的时候，我们暂时也不考虑列表切片操作花费的时间，只是把做运算和合并运算结果的时间统计出来，代码如下所示。</p><div class="language-Python line-numbers-mode" data-highlighter="prismjs" data-ext="Python" data-title="Python"><pre><code><span class="line">from multiprocessing import Process, Queue</span>
+<span class="line">from random import randint</span>
+<span class="line">from time import time</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def task_handler(curr_list, result_queue):</span>
+<span class="line">    total = 0</span>
+<span class="line">    for number in curr_list:</span>
+<span class="line">        total += number</span>
+<span class="line">    result_queue.put(total)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">def main():</span>
+<span class="line">    processes = []</span>
+<span class="line">    number_list = [x for x in range(1, 100000001)]</span>
+<span class="line">    result_queue = Queue()</span>
+<span class="line">    index = 0</span>
+<span class="line">    # 启动8个进程将数据切片后进行运算</span>
+<span class="line">    for _ in range(8):</span>
+<span class="line">        p = Process(target=task_handler,</span>
+<span class="line">                    args=(number_list[index:index + 12500000], result_queue))</span>
+<span class="line">        index += 12500000</span>
+<span class="line">        processes.append(p)</span>
+<span class="line">        p.start()</span>
+<span class="line">    # 开始记录所有进程执行完成花费的时间</span>
+<span class="line">    start = time()</span>
+<span class="line">    for p in processes:</span>
+<span class="line">        p.join()</span>
+<span class="line">    # 合并执行结果</span>
+<span class="line">    total = 0</span>
+<span class="line">    while not result_queue.empty():</span>
+<span class="line">        total += result_queue.get()</span>
+<span class="line">    print(total)</span>
+<span class="line">    end = time()</span>
+<span class="line">    print(&#39;Execution time: &#39;, (end - start), &#39;s&#39;, sep=&#39;&#39;)</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">if __name__ == &#39;__main__&#39;:</span>
+<span class="line">    main()</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>比较两段代码的执行结果（在我目前使用的MacBook上，上面的代码需要大概6秒左右的时间，而下面的代码只需要不到1秒的时间，再强调一次我们只是比较了运算的时间，不考虑列表创建及切片操作花费的时间），使用多进程后由于获得了更多的CPU执行时间以及更好的利用了CPU的多核特性，明显的减少了程序的执行时间，而且计算量越大效果越明显。当然，如果愿意还可以将多个进程部署在不同的计算机上，做成分布式进程，具体的做法就是通过<code>multiprocessing.managers</code>模块中提供的管理器将<code>Queue</code>对象通过网络共享出来（注册到网络上让其他计算机可以访问），这部分内容也留到爬虫的专题再进行讲解。</p></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-D-bq_jAa.js" defer></script>
+  </body>
+</html>

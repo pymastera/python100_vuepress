@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title></title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-PoWje89h.css" as="style"><link rel="stylesheet" href="/assets/style-PoWje89h.css">
+    <link rel="modulepreload" href="/assets/app-D-bq_jAa.js"><link rel="modulepreload" href="/assets/39.SQL详解之DQL.html-Ddo7fJHv.js">
+    <link rel="prefetch" href="/assets/index.html-gliNvsHQ.js" as="script"><link rel="prefetch" href="/assets/01.初识Python.html-BwFdoIKy.js" as="script"><link rel="prefetch" href="/assets/02.语言元素.html-CYMl2Yed.js" as="script"><link rel="prefetch" href="/assets/03.分支结构.html-BSYx_tCp.js" as="script"><link rel="prefetch" href="/assets/04.循环结构.html-BJZpY12e.js" as="script"><link rel="prefetch" href="/assets/05.构造程序逻辑.html-BQzZubpL.js" as="script"><link rel="prefetch" href="/assets/06.函数和模块的使用.html-D2HnWKET.js" as="script"><link rel="prefetch" href="/assets/07.字符串和常用数据结构.html-CKl8znKO.js" as="script"><link rel="prefetch" href="/assets/08.面向对象编程基础.html-D_lfcD_q.js" as="script"><link rel="prefetch" href="/assets/09.面向对象进阶.html-2lzuIX0a.js" as="script"><link rel="prefetch" href="/assets/10.图形用户界面和游戏开发.html-By17OOos.js" as="script"><link rel="prefetch" href="/assets/11.文件和异常.html-CgLQgdd8.js" as="script"><link rel="prefetch" href="/assets/12.字符串和正则表达式.html-BPI-RzQV.js" as="script"><link rel="prefetch" href="/assets/13.进程和线程.html-cUulhaPG.js" as="script"><link rel="prefetch" href="/assets/14.网络编程入门和网络应用开发.html-BtJ52ysb.js" as="script"><link rel="prefetch" href="/assets/15.图像和办公文档处理.html-CmKSYg3w.js" as="script"><link rel="prefetch" href="/assets/21-30.Web前端概述.html-BQnr2GML.js" as="script"><link rel="prefetch" href="/assets/16-20.Python语言进阶.html-B6OMzyDF.js" as="script"><link rel="prefetch" href="/assets/31-35.玩转Linux操作系统.html-ZmKmt6al.js" as="script"><link rel="prefetch" href="/assets/46.Django快速上手.html-ClDn9mK8.js" as="script"><link rel="prefetch" href="/assets/47.深入模型.html-BeXTv4Gh.js" as="script"><link rel="prefetch" href="/assets/48.静态资源和Ajax请求.html-CBsfW0m5.js" as="script"><link rel="prefetch" href="/assets/49.Cookie和Session.html-OKxZdF5r.js" as="script"><link rel="prefetch" href="/assets/50.制作报表.html-CHohPMoE.js" as="script"><link rel="prefetch" href="/assets/51.日志和调试工具栏.html-IHfUTr24.js" as="script"><link rel="prefetch" href="/assets/52.中间件的应用.html-EITG4bC6.js" as="script"><link rel="prefetch" href="/assets/53.前后端分离开发入门.html-CSfpFnpc.js" as="script"><link rel="prefetch" href="/assets/54.RESTful架构和DRF入门.html-unYp2iVf.js" as="script"><link rel="prefetch" href="/assets/55.RESTful架构和DRF进阶.html-Bimn41qo.js" as="script"><link rel="prefetch" href="/assets/56.使用缓存.html-DygStMaf.js" as="script"><link rel="prefetch" href="/assets/57.接入三方平台.html-BOYDJBOY.js" as="script"><link rel="prefetch" href="/assets/58.异步任务和定时任务.html-Df3PFO5Q.js" as="script"><link rel="prefetch" href="/assets/59.单元测试.html-DsPevIDF.js" as="script"><link rel="prefetch" href="/assets/60.项目上线.html-DMRv6p1t.js" as="script"><link rel="prefetch" href="/assets/36.关系型数据库和MySQL概述.html-BxE9DXEh.js" as="script"><link rel="prefetch" href="/assets/37.SQL详解之DDL.html-Bgp1k0eR.js" as="script"><link rel="prefetch" href="/assets/38.SQL详解之DML.html-uimrZls-.js" as="script"><link rel="prefetch" href="/assets/40.SQL详解之DCL.html-CE0er4AB.js" as="script"><link rel="prefetch" href="/assets/41.MySQL新特性.html-Be23vhPq.js" as="script"><link rel="prefetch" href="/assets/42.视图、函数和过程.html-JJRxgqze.js" as="script"><link rel="prefetch" href="/assets/43.索引.html-DCuE2oxz.js" as="script"><link rel="prefetch" href="/assets/44.Python接入MySQL数据库.html-CDHCppw7.js" as="script"><link rel="prefetch" href="/assets/45.大数据平台和HiveSQL.html-BoScJKu1.js" as="script"><link rel="prefetch" href="/assets/66.数据分析概述.html-BnwcA8AB.js" as="script"><link rel="prefetch" href="/assets/67.环境准备.html-DHxqV8P9.js" as="script"><link rel="prefetch" href="/assets/68.NumPy的应用-1.html-B3M5Stew.js" as="script"><link rel="prefetch" href="/assets/69.NumPy的应用-2.html-DINfPSOD.js" as="script"><link rel="prefetch" href="/assets/70.NumPy的应用-3.html-Cq0BS2Tg.js" as="script"><link rel="prefetch" href="/assets/71.NumPy的应用-4.html-BONDNBne.js" as="script"><link rel="prefetch" href="/assets/72.深入浅出pandas-1.html-mfHBd5ix.js" as="script"><link rel="prefetch" href="/assets/73.深入浅出pandas-2.html-BzB_BqJB.js" as="script"><link rel="prefetch" href="/assets/74.深入浅出pandas-3.html-CsRWNuji.js" as="script"><link rel="prefetch" href="/assets/75.深入浅出pandas-4.html-BvqbzoEe.js" as="script"><link rel="prefetch" href="/assets/76.深入浅出pandas-5.html-ukdSbkgj.js" as="script"><link rel="prefetch" href="/assets/77.深入浅出pandas-6.html-Cb21IcVJ.js" as="script"><link rel="prefetch" href="/assets/78.数据可视化-1.html-B7sXt-G5.js" as="script"><link rel="prefetch" href="/assets/79.数据可视化-2.html-Bv_oTn1i.js" as="script"><link rel="prefetch" href="/assets/80.数据可视化-3.html-BLZsn4HV.js" as="script"><link rel="prefetch" href="/assets/61.网络数据采集概述.html-CjR5vzG3.js" as="script"><link rel="prefetch" href="/assets/62.用Python获取网络资源-1.html-BKM7qrLE.js" as="script"><link rel="prefetch" href="/assets/62.用Python解析HTML页面-2.html-Dtcd-kct.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-1.html-BekWYpsa.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-2.html-CVXcHBzj.js" as="script"><link rel="prefetch" href="/assets/63.Python中的并发编程-3.html-BlfLRjkc.js" as="script"><link rel="prefetch" href="/assets/63.并发编程在爬虫中的应用.html-ti0e-1h5.js" as="script"><link rel="prefetch" href="/assets/64.使用Selenium抓取网页动态内容.html-BLFVKpq_.js" as="script"><link rel="prefetch" href="/assets/65.爬虫框架Scrapy简介.html-W8heCdhA.js" as="script"><link rel="prefetch" href="/assets/81.人工智能和机器学习概述.html-Ca7AYT__.js" as="script"><link rel="prefetch" href="/assets/82.k最近邻算法.html-CGQnIPO4.js" as="script"><link rel="prefetch" href="/assets/83.决策树.html-BwWQjZ__.js" as="script"><link rel="prefetch" href="/assets/84.聚类算法.html-BnETr6ij.js" as="script"><link rel="prefetch" href="/assets/85.朴素贝叶斯算法.html-Rct6EKZw.js" as="script"><link rel="prefetch" href="/assets/86.支持向量机.html-yAGpiCbO.js" as="script"><link rel="prefetch" href="/assets/87.回归分析.html-BO-2cKfh.js" as="script"><link rel="prefetch" href="/assets/88.深度学习入门.html-BOSrbht3.js" as="script"><link rel="prefetch" href="/assets/89.PyTorch概述.html-BXDTY1W0.js" as="script"><link rel="prefetch" href="/assets/90.PyTorch实战.html-DWYNWcjH.js" as="script"><link rel="prefetch" href="/assets/100.Python面试题实录.html-C5EnR3Ed.js" as="script"><link rel="prefetch" href="/assets/91.团队项目开发的问题和解决方案.html-CECcJy8n.js" as="script"><link rel="prefetch" href="/assets/92.Docker容器技术详解.html-DGacXk8p.js" as="script"><link rel="prefetch" href="/assets/93.MySQL性能优化.html-BChvKIt4.js" as="script"><link rel="prefetch" href="/assets/94.网络API接口设计.html-ChQlRSGo.js" as="script"><link rel="prefetch" href="/assets/95.使用Django开发商业项目.html-DECQMK9m.js" as="script"><link rel="prefetch" href="/assets/96.软件测试和自动化测试.html-D3r3us4u.js" as="script"><link rel="prefetch" href="/assets/97.电商网站技术要点剖析.html-hB1D5G1G.js" as="script"><link rel="prefetch" href="/assets/98.项目部署上线和性能调优.html-CT3LhWhJ.js" as="script"><link rel="prefetch" href="/assets/99.面试中的公共问题.html-DMTzlILS.js" as="script"><link rel="prefetch" href="/assets/PEP8风格指南.html-DN3Ws3cc.js" as="script"><link rel="prefetch" href="/assets/Python之禅的最佳翻译.html-TKNJu8cq.js" as="script"><link rel="prefetch" href="/assets/Python参考书籍.html-CO-ccpF4.js" as="script"><link rel="prefetch" href="/assets/Python容器使用小技巧.html-DZR49nel.js" as="script"><link rel="prefetch" href="/assets/Python数据分析师面试题.html-YtNemgMP.js" as="script"><link rel="prefetch" href="/assets/Python编程惯例.html-CvmEKn9m.js" as="script"><link rel="prefetch" href="/assets/一个小例子助你彻底理解协程.html-Cq1CFFHT.js" as="script"><link rel="prefetch" href="/assets/使用Hexo搭建自己的博客.html-CXPev5HK.js" as="script"><link rel="prefetch" href="/assets/常见反爬策略及应对方案.html-DCecg34L.js" as="script"><link rel="prefetch" href="/assets/我为什么选择了Python.html-BuUPym1o.js" as="script"><link rel="prefetch" href="/assets/接口文档参考示例.html-GRoBovI1.js" as="script"><link rel="prefetch" href="/assets/玩转PyCharm.html--XkJxH2_.js" as="script"><link rel="prefetch" href="/assets/用函数还是用复杂的表达式.html-2n5kS7oc.js" as="script"><link rel="prefetch" href="/assets/知乎问题回答.html-CkWOFmLg.js" as="script"><link rel="prefetch" href="/assets/英语面试.html-CZGJtC3Y.js" as="script"><link rel="prefetch" href="/assets/那些年我们踩过的那些坑.html-C1BI6oD2.js" as="script"><link rel="prefetch" href="/assets/年薪50W_的Python程序员如何写代码.html-C49SuvhI.js" as="script"><link rel="prefetch" href="/assets/好玩的Python.html-CpBhFJ_2.js" as="script"><link rel="prefetch" href="/assets/算法入门系列1-周而复始.html-32WRx0Tf.js" as="script"><link rel="prefetch" href="/assets/算法入门系列2 - 在水一方.html-ChrbgX52.js" as="script"><link rel="prefetch" href="/assets/404.html-8giqv0M_.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-CexIHObO.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><!----><!----></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading"> <!----></p><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content" vp-content><!--[--><!--]--><div><h2 id="sql详解之dql" tabindex="-1"><a class="header-anchor" href="#sql详解之dql"><span>SQL详解之DQL</span></a></h2><p>接下来，我们利用之前创建的学校选课系统数据库，为大家讲解 DML 中的查询操作。无论对于开发人员还是数据分析师，查询都是非常重要的，它关系着我们能否从关系数据库中获取我们需要的数据。建议大家把上上一节课中建库建表的 DDL 以及 上一节课中插入数据的 DML 重新执行一次，确保表和数据跟没有问题再执行下面的操作。</p><div class="language-SQL line-numbers-mode" data-highlighter="prismjs" data-ext="SQL" data-title="SQL"><pre><code><span class="line">USE school;</span>
+<span class="line"></span>
+<span class="line">-- 查询所有学生的所有信息</span>
+<span class="line">SELECT stu_id,</span>
+<span class="line">       stu_name,</span>
+<span class="line">       stu_sex,</span>
+<span class="line">       stu_birth,</span>
+<span class="line">       stu_addr,</span>
+<span class="line">       col_id</span>
+<span class="line">  FROM tb_student;</span>
+<span class="line"></span>
+<span class="line">-- 查询学生的学号、姓名和籍贯(投影和别名)</span>
+<span class="line">SELECT stu_id AS 学号,</span>
+<span class="line">       stu_name AS 姓名,</span>
+<span class="line">       stu_addr AS 籍贯</span>
+<span class="line">  FROM tb_student;</span>
+<span class="line"></span>
+<span class="line">-- 查询所有课程的名称及学分(投影和别名)</span>
+<span class="line">SELECT cou_name AS 课程名称,</span>
+<span class="line">       cou_credit AS 学分</span>
+<span class="line">  FROM tb_course;</span>
+<span class="line"></span>
+<span class="line">-- 查询所有女学生的姓名和出生日期(数据筛选)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_birth</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_sex = 0;</span>
+<span class="line"></span>
+<span class="line">-- 查询籍贯为“四川成都”的女学生的姓名和出生日期(数据筛选)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_birth</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_sex = 0</span>
+<span class="line">       AND stu_addr = &#39;四川成都&#39;;</span>
+<span class="line"></span>
+<span class="line">-- 查询籍贯为“四川成都”或者性别是女的学生(数据筛选)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_birth</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_sex = 0</span>
+<span class="line">       OR stu_addr = &#39;四川成都&#39;;</span>
+<span class="line"></span>
+<span class="line">-- 查询所有80后学生的姓名、性别和出生日期(数据筛选)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_sex,</span>
+<span class="line">       stu_birth</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE &#39;1980-1-1&#39; &lt;= stu_birth </span>
+<span class="line">       AND stu_birth &lt;= &#39;1989-12-31&#39;;</span>
+<span class="line">       </span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_sex,</span>
+<span class="line">       stu_birth</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_birth BETWEEN &#39;1980-1-1&#39; AND &#39;1989-12-31&#39;;</span>
+<span class="line"></span>
+<span class="line">-- 查询学分大于2的课程的名称和学分(数据筛选)</span>
+<span class="line">SELECT cou_name,</span>
+<span class="line">	   cou_credit</span>
+<span class="line">  FROM tb_course</span>
+<span class="line"> WHERE cou_credit &gt; 2;</span>
+<span class="line"></span>
+<span class="line">-- 查询学分是奇数的课程的名称和学分(数据筛选)</span>
+<span class="line">SELECT cou_name,</span>
+<span class="line">	   cou_credit</span>
+<span class="line">  FROM tb_course</span>
+<span class="line"> WHERE cou_credit MOD 2 &lt;&gt; 0;</span>
+<span class="line"></span>
+<span class="line">-- 查询选择选了1111的课程考试成绩在90分以上的学生学号(数据筛选)</span>
+<span class="line">SELECT stu_id</span>
+<span class="line">  FROM tb_record</span>
+<span class="line"> WHERE cou_id = 1111</span>
+<span class="line">       AND score &gt; 90;</span>
+<span class="line"></span>
+<span class="line">-- 查询名字叫“杨过”的学生的姓名和性别(数据筛选)</span>
+<span class="line">SELECT stu_name AS 姓名, </span>
+<span class="line">       CASE stu_sex WHEN 1 THEN &#39;男&#39; ELSE &#39;女&#39; END AS 性别</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_name = &#39;杨过&#39;;</span>
+<span class="line"> </span>
+<span class="line">SELECT stu_name AS 姓名, </span>
+<span class="line">       IF(stu_sex, &#39;男&#39;, &#39;女&#39;) AS 性别</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_name = &#39;杨过&#39;;</span>
+<span class="line">    </span>
+<span class="line">-- 查询姓“杨”的学生姓名和性别(模糊匹配)</span>
+<span class="line">-- 通配符 % 匹配零个或任意多个字符</span>
+<span class="line">SELECT stu_name AS 姓名, </span>
+<span class="line">       CASE stu_sex WHEN 1 THEN &#39;男&#39; ELSE &#39;女&#39; END AS 性别</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_name LIKE &#39;杨%&#39;;</span>
+<span class="line"></span>
+<span class="line">-- 查询姓“杨”名字两个字的学生姓名和性别(模糊匹配)</span>
+<span class="line">-- 通过符 _ 匹配一个字符</span>
+<span class="line">SELECT stu_name AS 姓名, </span>
+<span class="line">       CASE stu_sex WHEN 1 THEN &#39;男&#39; ELSE &#39;女&#39; END AS 性别</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_name LIKE &#39;杨_&#39;;</span>
+<span class="line"></span>
+<span class="line">-- 查询姓“杨”名字三个字的学生姓名和性别(模糊匹配)</span>
+<span class="line">SELECT stu_name AS 姓名, </span>
+<span class="line">       CASE stu_sex WHEN 1 THEN &#39;男&#39; ELSE &#39;女&#39; END AS 性别</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_name LIKE &#39;杨__&#39;;</span>
+<span class="line"> </span>
+<span class="line">-- 查询学号最后一位是3的学生的学号和姓名(模糊匹配)</span>
+<span class="line">SELECT stu_id,</span>
+<span class="line">       stu_name</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_id LIKE &#39;%3&#39;;</span>
+<span class="line"></span>
+<span class="line">-- 查询名字中有“不”字或“嫣”字的学生的学号和姓名(模糊匹配和并集运算)</span>
+<span class="line">SELECT stu_id,</span>
+<span class="line">       stu_name</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_name LIKE &#39;%不%&#39;</span>
+<span class="line">       OR stu_name LIKE &#39;%嫣%&#39;;</span>
+<span class="line">       </span>
+<span class="line">SELECT stu_id,</span>
+<span class="line">       stu_name</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_name LIKE &#39;%不%&#39;</span>
+<span class="line"> UNION</span>
+<span class="line">SELECT stu_id,</span>
+<span class="line">       stu_name</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_name LIKE &#39;%嫣%&#39;;</span>
+<span class="line"></span>
+<span class="line">-- 查询姓“杨”或姓“林”名字三个字的学生的学号和姓名(正则表达式模糊匹配)</span>
+<span class="line">SELECT stu_id,</span>
+<span class="line">       stu_name</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_name REGEXP &#39;[林杨][\\u4e00-\\u9fa5]{2}&#39;;</span>
+<span class="line"></span>
+<span class="line">-- 查询没有录入籍贯的学生姓名(空值处理)</span>
+<span class="line">SELECT stu_name</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE TRIM(stu_addr) = &#39;&#39;</span>
+<span class="line">       OR stu_addr is null;</span>
+<span class="line"> </span>
+<span class="line">-- 查询录入了籍贯的学生姓名(空值处理)</span>
+<span class="line">SELECT stu_name</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE TRIM(stu_addr) &lt;&gt; &#39;&#39;</span>
+<span class="line">       AND stu_addr is not null;</span>
+<span class="line"></span>
+<span class="line">-- 查询学生选课的所有日期(去重)</span>
+<span class="line">SELECT DISTINCT sel_date</span>
+<span class="line">  FROM tb_record;</span>
+<span class="line"></span>
+<span class="line">-- 查询学生的籍贯(去重)</span>
+<span class="line">SELECT DISTINCT stu_addr</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE TRIM(stu_addr) &lt;&gt; &#39;&#39;</span>
+<span class="line">       AND stu_addr is not null;</span>
+<span class="line"></span>
+<span class="line">-- 查询男学生的姓名和生日按年龄从大到小排列(排序)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_birth</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_sex = 1</span>
+<span class="line"> ORDER BY stu_birth ASC;</span>
+<span class="line"> </span>
+<span class="line">-- 补充：将上面的生日换算成年龄(日期函数、数值函数)</span>
+<span class="line">SELECT stu_name AS 姓名,</span>
+<span class="line">       FLOOR(DATEDIFF(CURDATE(), stu_birth) / 365) AS 年龄</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_sex = 1</span>
+<span class="line"> ORDER BY 年龄 DESC;</span>
+<span class="line"></span>
+<span class="line">-- 查询年龄最大的学生的出生日期(聚合函数)</span>
+<span class="line">SELECT MIN(stu_birth)</span>
+<span class="line">  FROM tb_student;</span>
+<span class="line"></span>
+<span class="line">-- 查询年龄最小的学生的出生日期(聚合函数)</span>
+<span class="line">SELECT MAX(stu_birth)</span>
+<span class="line">  FROM tb_student;</span>
+<span class="line"></span>
+<span class="line">-- 查询编号为1111的课程考试成绩的最高分(聚合函数)</span>
+<span class="line">SELECT MAX(score)</span>
+<span class="line">  FROM tb_record</span>
+<span class="line"> WHERE cou_id = 1111;</span>
+<span class="line"></span>
+<span class="line">-- 查询学号为1001的学生考试成绩的最低分、最高分、平均分、标准差、方差(聚合函数)</span>
+<span class="line">SELECT MIN(score) AS 最低分,</span>
+<span class="line">       MAX(score) AS 最高分,</span>
+<span class="line">	   ROUND(AVG(score), 1) AS 平均分,</span>
+<span class="line">       STDDEV(score) AS 标准差,</span>
+<span class="line">       VARIANCE(score) AS 方差</span>
+<span class="line">  FROM tb_record</span>
+<span class="line"> WHERE stu_id = 1001;</span>
+<span class="line"></span>
+<span class="line">-- 查询学号为1001的学生考试成绩的平均分，如果有null值，null值算0分(聚合函数)</span>
+<span class="line">SELECT ROUND(SUM(score) / COUNT(*), 1) AS 平均分</span>
+<span class="line">  FROM tb_record</span>
+<span class="line"> WHERE stu_id = 1001;</span>
+<span class="line"></span>
+<span class="line">-- 查询男女学生的人数(分组和聚合函数)</span>
+<span class="line">SELECT CASE stu_sex WHEN 1 THEN &#39;男&#39; ELSE &#39;女&#39; END AS 性别,</span>
+<span class="line">       COUNT(*) AS 人数</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> GROUP BY stu_sex;</span>
+<span class="line"></span>
+<span class="line">-- 查询每个学院学生人数(分组和聚合函数)</span>
+<span class="line">SELECT col_id AS 学院编号,</span>
+<span class="line">       COUNT(*) AS 人数</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> GROUP BY col_id</span>
+<span class="line">  WITH ROLLUP;</span>
+<span class="line"></span>
+<span class="line">-- 查询每个学院男女学生人数(分组和聚合函数)</span>
+<span class="line">SELECT col_id AS 学院编号,</span>
+<span class="line">       CASE stu_sex WHEN 1 THEN &#39;男&#39; ELSE &#39;女&#39; END AS 性别,</span>
+<span class="line">       COUNT(*) AS 人数</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> GROUP BY col_id, stu_sex;</span>
+<span class="line"></span>
+<span class="line">-- 查询每个学生的学号和平均成绩(分组和聚合函数)</span>
+<span class="line">SELECT stu_id AS 学号,</span>
+<span class="line">	   ROUND(AVG(score), 1) AS 平均分</span>
+<span class="line">  FROM tb_record</span>
+<span class="line"> GROUP BY stu_id;</span>
+<span class="line"></span>
+<span class="line">-- 查询平均成绩大于等于90分的学生的学号和平均成绩(分组后的数据筛选)</span>
+<span class="line">SELECT stu_id AS 学号,</span>
+<span class="line">	   ROUND(AVG(score), 1) AS 平均分</span>
+<span class="line">  FROM tb_record</span>
+<span class="line"> GROUP BY stu_id</span>
+<span class="line">HAVING 平均分 &gt;= 90;</span>
+<span class="line"></span>
+<span class="line">-- 查询1111、2222、3333三门课程平均成绩大于等于90分的学生的学号和平均成绩(分组前后的数据筛选)</span>
+<span class="line">SELECT stu_id AS 学号,</span>
+<span class="line">	   ROUND(AVG(score), 1) AS 平均分</span>
+<span class="line">  FROM tb_record</span>
+<span class="line"> WHERE cou_id in (1111, 2222, 3333)</span>
+<span class="line"> GROUP BY stu_id</span>
+<span class="line">HAVING 平均分 &gt;= 90</span>
+<span class="line"> ORDER BY 平均分 ASC;</span>
+<span class="line"></span>
+<span class="line">-- 查询年龄最大的学生的姓名(子查询)</span>
+<span class="line">SELECT stu_name</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_birth = (SELECT MIN(stu_birth)</span>
+<span class="line">                      FROM tb_student);</span>
+<span class="line"></span>
+<span class="line">-- 查询选了两门以上的课程的学生姓名(子查询和集合运算)</span>
+<span class="line">SELECT stu_name</span>
+<span class="line">  FROM tb_student</span>
+<span class="line"> WHERE stu_id in (SELECT stu_id</span>
+<span class="line">				    FROM tb_record</span>
+<span class="line">				   GROUP BY stu_id</span>
+<span class="line">				  HAVING COUNT(*) &gt; 2);</span>
+<span class="line"></span>
+<span class="line">-- 查询学生的姓名、生日和所在学院名称(表连接)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_birth,</span>
+<span class="line">       col_name</span>
+<span class="line">  FROM tb_student AS t1, tb_college AS t2</span>
+<span class="line"> WHERE t1.col_id = t2.col_id;</span>
+<span class="line"> </span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_birth,</span>
+<span class="line">	   col_name</span>
+<span class="line">  FROM tb_student INNER JOIN tb_college</span>
+<span class="line">       ON tb_student.col_id = tb_college.col_id;</span>
+<span class="line"></span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_birth,</span>
+<span class="line">	   col_name</span>
+<span class="line">  FROM tb_student NATURAL JOIN tb_college;</span>
+<span class="line">  </span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       stu_birth,</span>
+<span class="line">	   col_name</span>
+<span class="line">  FROM tb_student CROSS JOIN tb_college;</span>
+<span class="line"></span>
+<span class="line">-- 查询学生姓名、课程名称以及成绩(表连接)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       cou_name,</span>
+<span class="line">	   score</span>
+<span class="line">  FROM tb_student, tb_course, tb_record</span>
+<span class="line"> WHERE tb_student.stu_id = tb_record.stu_id</span>
+<span class="line">       AND tb_course.cou_id = tb_record.cou_id</span>
+<span class="line">       AND score is not null;</span>
+<span class="line"></span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       cou_name,</span>
+<span class="line">	   score</span>
+<span class="line">  FROM tb_student </span>
+<span class="line">       INNER JOIN tb_record</span>
+<span class="line">	       ON tb_student.stu_id = tb_record.stu_id</span>
+<span class="line">	   INNER JOIN tb_course</span>
+<span class="line">	       ON tb_course.cou_id = tb_record.cou_id</span>
+<span class="line"> WHERE score is not null;</span>
+<span class="line"> </span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       cou_name,</span>
+<span class="line">       score</span>
+<span class="line">  FROM tb_student </span>
+<span class="line">	   NATURAL JOIN tb_record</span>
+<span class="line">       NATURAL JOIN tb_course</span>
+<span class="line"> WHERE score is not null;</span>
+<span class="line"></span>
+<span class="line">-- 补充：上面的查询结果取前5条数据(分页查询)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       cou_name,</span>
+<span class="line">       score</span>
+<span class="line">  FROM tb_student </span>
+<span class="line">	   NATURAL JOIN tb_record</span>
+<span class="line">       NATURAL JOIN tb_course</span>
+<span class="line"> WHERE score is not null</span>
+<span class="line"> ORDER BY cou_id ASC, score DESC</span>
+<span class="line"> LIMIT 5;</span>
+<span class="line"></span>
+<span class="line">-- 补充：上面的查询结果取第6-10条数据(分页查询)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       cou_name,</span>
+<span class="line">       score</span>
+<span class="line">  FROM tb_student </span>
+<span class="line">	   NATURAL JOIN tb_record</span>
+<span class="line">       NATURAL JOIN tb_course</span>
+<span class="line"> WHERE score is not null</span>
+<span class="line"> ORDER BY cou_id ASC, score DESC</span>
+<span class="line"> LIMIT 5</span>
+<span class="line">OFFSET 5;</span>
+<span class="line"></span>
+<span class="line">-- 补充：上面的查询结果取第11-15条数据(分页查询)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">       cou_name,</span>
+<span class="line">       score</span>
+<span class="line">  FROM tb_student </span>
+<span class="line">	   NATURAL JOIN tb_record</span>
+<span class="line">       NATURAL JOIN tb_course</span>
+<span class="line"> WHERE score is not null</span>
+<span class="line"> ORDER BY cou_id ASC, score DESC</span>
+<span class="line"> LIMIT 10, 5;</span>
+<span class="line"></span>
+<span class="line">-- 查询选课学生的姓名和平均成绩(子查询和表连接)</span>
+<span class="line">-- Error Code: 1248. Every derived table must have its own alias</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">	   avg_score</span>
+<span class="line">  FROM tb_student</span>
+<span class="line">       NATURAL JOIN (SELECT stu_id,</span>
+<span class="line">                            ROUND(AVG(score), 1) AS avg_score</span>
+<span class="line">                       FROM tb_record</span>
+<span class="line">                      GROUP BY stu_id) as tmp;</span>
+<span class="line"></span>
+<span class="line">-- 查询学生的姓名和选课的数量(子查询和表连接)</span>
+<span class="line">SELECT stu_name,</span>
+<span class="line">	   total</span>
+<span class="line">  FROM tb_student</span>
+<span class="line">       NATURAL JOIN (SELECT stu_id,</span>
+<span class="line">                            COUNT(*) AS total</span>
+<span class="line">                       FROM tb_record</span>
+<span class="line">                      GROUP BY stu_id) as tmp;</span>
+<span class="line"></span>
+<span class="line">-- 查询每个学生的姓名和选课数量(子查询和左外连接)</span>
+<span class="line">SELECT stu_name AS 姓名,</span>
+<span class="line">	   COALESCE(total, 0) AS 选课数量</span>
+<span class="line">  FROM tb_student AS t1</span>
+<span class="line">	   LEFT JOIN (SELECT stu_id,</span>
+<span class="line">			             COUNT(*) AS total</span>
+<span class="line">		            FROM tb_record</span>
+<span class="line">				   GROUP BY stu_id) AS t2</span>
+<span class="line">	       ON t1.stu_id = t2.stu_id;</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>有几个地方需要加以说明：</p><ol><li><p>MySQL目前的版本不支持全外连接，上面我们通过<code>union</code>操作，将左外连接和右外连接的结果求并集实现全外连接的效果。大家可以通过下面的图来加深对连表操作的认识。</p><img src="http://localhost/mypic/20211121135117.png" style="zoom:50%;"></li><li><p>MySQL 中支持多种类型的运算符，包括：算术运算符（<code>+</code>、<code>-</code>、<code>*</code>、<code>/</code>、<code>%</code>）、比较运算符（<code>=</code>、<code>&lt;&gt;</code>、<code>&lt;=&gt;</code>、<code>&lt;</code>、<code>&lt;=</code>、<code>&gt;</code>、<code>&gt;=</code>、<code>BETWEEN...AND..</code>.、<code>IN</code>、<code>IS NULL</code>、<code>IS NOT NULL</code>、<code>LIKE</code>、<code>RLIKE</code>、<code>REGEXP</code>）、逻辑运算符（<code>NOT</code>、<code>AND</code>、<code>OR</code>、<code>XOR</code>）和位运算符（<code>&amp;</code>、<code>|</code>、<code>^</code>、<code>~</code>、<code>&gt;&gt;</code>、<code>&lt;&lt;</code>），我们可以在 DML 中使用这些运算符处理数据。</p></li><li><p>在查询数据时，可以在<code>SELECT</code>语句及其子句（如<code>WHERE</code>子句、<code>ORDER BY</code>子句、<code>HAVING</code>子句等）中使用函数，这些函数包括字符串函数、数值函数、时间日期函数、流程函数等，如下面的表格所示。</p><p>常用字符串函数。</p><table><thead><tr><th>函数</th><th>功能</th></tr></thead><tbody><tr><td><code>CONCAT</code></td><td>将多个字符串连接成一个字符串</td></tr><tr><td><code>FORMAT</code></td><td>将数值格式化成字符串并指定保留几位小数</td></tr><tr><td><code>FROM_BASE64</code> / <code>TO_BASE64</code></td><td>BASE64解码/编码</td></tr><tr><td><code>BIN</code> / <code>OCT</code> / <code>HEX</code></td><td>将数值转换成二进制/八进制/十六进制字符串</td></tr><tr><td><code>LOCATE</code></td><td>在字符串中查找一个子串的位置</td></tr><tr><td><code>LEFT</code> / <code>RIGHT</code></td><td>返回一个字符串左边/右边指定长度的字符</td></tr><tr><td><code>LENGTH</code> / <code>CHAR_LENGTH</code></td><td>返回字符串的长度以字节/字符为单位</td></tr><tr><td><code>LOWER</code> / <code>UPPER</code></td><td>返回字符串的小写/大写形式</td></tr><tr><td><code>LPAD</code> / <code>RPAD</code></td><td>如果字符串的长度不足，在字符串左边/右边填充指定的字符</td></tr><tr><td><code>LTRIM</code> / <code>RTRIM</code></td><td>去掉字符串前面/后面的空格</td></tr><tr><td><code>ORD</code> / <code>CHAR</code></td><td>返回字符对应的编码/返回编码对应的字符</td></tr><tr><td><code>STRCMP</code></td><td>比较字符串，返回-1、0、1分别表示小于、等于、大于</td></tr><tr><td><code>SUBSTRING</code></td><td>返回字符串指定范围的子串</td></tr></tbody></table><p>常用数值函数。</p><table><thead><tr><th>函数</th><th>功能</th></tr></thead><tbody><tr><td><code>ABS</code></td><td>返回一个数的绝度值</td></tr><tr><td><code>CEILING</code> / <code>FLOOR</code></td><td>返回一个数上取整/下取整的结果</td></tr><tr><td><code>CONV</code></td><td>将一个数从一种进制转换成另一种进制</td></tr><tr><td><code>CRC32</code></td><td>计算循环冗余校验码</td></tr><tr><td><code>EXP</code> / <code>LOG</code> / <code>LOG2</code> / <code>LOG10</code></td><td>计算指数/对数</td></tr><tr><td><code>POW</code></td><td>求幂</td></tr><tr><td><code>RAND</code></td><td>返回[0,1)范围的随机数</td></tr><tr><td><code>ROUND</code></td><td>返回一个数四舍五入后的结果</td></tr><tr><td><code>SQRT</code></td><td>返回一个数的平方根</td></tr><tr><td><code>TRUNCATE</code></td><td>截断一个数到指定的精度</td></tr><tr><td><code>SIN</code> / <code>COS</code> / <code>TAN</code> / <code>COT</code> / <code>ASIN</code> / <code>ACOS</code> / <code>ATAN</code></td><td>三角函数</td></tr></tbody></table><p>常用时间日期函数。</p><table><thead><tr><th>函数</th><th>功能</th></tr></thead><tbody><tr><td><code>CURDATE</code> / <code>CURTIME</code> / <code>NOW</code></td><td>获取当前日期/时间/日期和时间</td></tr><tr><td><code>ADDDATE</code> / <code>SUBDATE</code></td><td>将两个日期表达式相加/相减并返回结果</td></tr><tr><td><code>DATE</code> / <code>TIME</code></td><td>从字符串中获取日期/时间</td></tr><tr><td><code>YEAR</code> / <code>MONTH</code> / <code>DAY</code></td><td>从日期中获取年/月/日</td></tr><tr><td><code>HOUR</code> / <code>MINUTE</code> / <code>SECOND</code></td><td>从时间中获取时/分/秒</td></tr><tr><td><code>DATEDIFF</code> / <code>TIMEDIFF</code> / <code>TIMESTAMPDIFF</code></td><td>返回两个时间日期表达式相差多少天/小时</td></tr><tr><td><code>MAKEDATE</code> / <code>MAKETIME</code></td><td>制造一个日期/时间</td></tr></tbody></table><p>常用流程控制函数。</p><table><thead><tr><th>函数</th><th>功能</th></tr></thead><tbody><tr><td><code>IF</code></td><td>根据条件是否成立返回不同的值</td></tr><tr><td><code>IFNULL</code></td><td>如果为NULL则返回指定的值否则就返回本身</td></tr><tr><td><code>NULLIF</code></td><td>两个表达式相等就返回NULL否则返回第一个表达式的值</td></tr></tbody></table><p>其他常用函数。</p><table><thead><tr><th>函数</th><th>功能</th></tr></thead><tbody><tr><td><code>MD5</code> / <code>SHA1</code> / <code>SHA2</code></td><td>返回字符串对应的哈希摘要</td></tr><tr><td><code>CHARSET</code> / <code>COLLATION</code></td><td>返回字符集/校对规则</td></tr><tr><td><code>USER</code> / <code>CURRENT_USER</code></td><td>返回当前用户</td></tr><tr><td><code>DATABASE</code></td><td>返回当前数据库名</td></tr><tr><td><code>VERSION</code></td><td>返回当前数据库版本</td></tr><tr><td><code>FOUND_ROWS</code> / <code>ROW_COUNT</code></td><td>返回查询到的行数/受影响的行数</td></tr><tr><td><code>LAST_INSERT_ID</code></td><td>返回最后一个自增主键的值</td></tr><tr><td><code>UUID</code> / <code>UUID_SHORT</code></td><td>返回全局唯一标识符</td></tr></tbody></table></li></ol></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-D-bq_jAa.js" defer></script>
+  </body>
+</html>
